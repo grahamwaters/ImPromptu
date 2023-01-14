@@ -36,13 +36,11 @@ If you are feeling like having your mind melt into magic today then head over to
 
 <h1>Topics To Choose From</h1>
 
-</div>
-
 [![Advertising](https://img.shields.io/badge/-Advertising-green)](./industries/advertising.md)
-[![animation](https://img.shields.io/badge/-animation-yellow)](./industries/animation.md)
+[![animation](https://img.shields.io/badge/-animation-black)](./industries/animation.md)
 [![architecture](https://img.shields.io/badge/-architecture-blue)](./industries/animation.md)
 [![art](https://img.shields.io/badge/-art-green)](./industries/art.md)
-[![astronomy](https://img.shields.io/badge/-astronomy-yellow)](./industries/astronomy.md)
+[![astronomy](https://img.shields.io/badge/-astronomy-brown)](./industries/astronomy.md)
 [![beauty](https://img.shields.io/badge/-beauty-blue)](./industries/beauty.md)
 [![biology](https://img.shields.io/badge/-biology-green)](./industries/biology.md)
 [![business](https://img.shields.io/badge/-business-yellow)](./industries/business.md)
@@ -58,7 +56,7 @@ If you are feeling like having your mind melt into magic today then head over to
 [![entrepreneurship](https://img.shields.io/badge/-entrepreneurship-blue)](./industries/entrepreneurship.md)
 [![fashion](https://img.shields.io/badge/-fashion-green)](./industries/fashion.md)
 [![film](https://img.shields.io/badge/-film-yellow)](./industries/film.md)
-[![finance](https://img.shields.io/badge/-finance-orange)](./industries/finance.md)
+[![finance](https://img.shields.io/badge/-finance-green)](./industries/finance.md)
 [![food](https://img.shields.io/badge/-food-pink)](./industries/food.md)
 [![gaming](https://img.shields.io/badge/-gaming-yellow)](./industries/gaming.md)
 [![gaming](https://img.shields.io/badge/-gaming-blue)](./industries/gaming.md)
@@ -66,24 +64,24 @@ If you are feeling like having your mind melt into magic today then head over to
 [![health](https://img.shields.io/badge/-health-yellow)](./industries/health.md)
 [![history](https://img.shields.io/badge/-history-blue)](./industries/history.md)
 [![humor](https://img.shields.io/badge/-humor-green)](./industries/humor.md)
-[![illustration](https://img.shields.io/badge/-illustration-yellow)](./industries/illustration.md)
+[![illustration](https://img.shields.io/badge/-illustration-brown)](./industries/illustration.md)
 [![industrial_design](https://img.shields.io/badge/-industrial_design-blue)](./industries/industrial_design.md)
 [![journalism](https://img.shields.io/badge/-journalism-green)](./industries/journalism.md)
 [![law](https://img.shields.io/badge/-law-yellow)](./industries/law.md)
 [![literature](https://img.shields.io/badge/-literature-lightblue)](./industries/literature.md)
 [![marketing](https://img.shields.io/badge/-marketing-green)](./industries/marketing.md)
-[![mathematics](https://img.shields.io/badge/-mathematics-yellow)](./industries/mathematics.md)
+[![mathematics](https://img.shields.io/badge/-mathematics-red)](./industries/mathematics.md)
 [![medicine](https://img.shields.io/badge/-medicine-blue)](./industries/medicine.md)
 [![music](https://img.shields.io/badge/-music-green)](./industries/music.md)
 [![music_production](https://img.shields.io/badge/-music_production-yellow)](./industries/music_production.md)
 [![nature](https://img.shields.io/badge/-nature-lightgreen)](./industries/nature.md)
 [![nutrition](https://img.shields.io/badge/-nutrition-blue)](./industries/nutrition.md)
 [![other](https://img.shields.io/badge/-other-green)](./industries/other.md)
-[![parenting](https://img.shields.io/badge/-parenting-yellow)](./industries/parenting.md)
+[![parenting](https://img.shields.io/badge/-parenting-red)](./industries/parenting.md)
 [![personal_development](https://img.shields.io/badge/-personal_development-blue)](./industries/personal_development.md)
 [![pets](https://img.shields.io/badge/-pets-green)](./industries/pets.md)
 [![philosophy](https://img.shields.io/badge/-philosophy-yellow)](./industries/philosophy.md)
-[![photography](https://img.shields.io/badge/-photography-blue)](./industries/photography.md)
+[![photography](https://img.shields.io/badge/-photography-black)](./industries/photography.md)
 [![physics](https://img.shields.io/badge/-physics-green)](./industries/physics.md)
 [![politics](https://img.shields.io/badge/-politics-yellow)](./industries/politics.md)
 [![product_design](https://img.shields.io/badge/-product_design-blue)](./industries/product_design.md)
@@ -98,11 +96,22 @@ If you are feeling like having your mind melt into magic today then head over to
 [![software_engineering](https://img.shields.io/badge/-software_engineering-blue)](./industries/software_engineering.md)
 [![sports](https://img.shields.io/badge/-sports-green)](./industries/sports.md)
 [![statistics](https://img.shields.io/badge/-statistics-yellow)](./industries/statistics.md)
-[![storytelling](https://img.shields.io/badge/-storytelling-blue)](./industries/storytelling.md)
+[![storytelling](https://img.shields.io/badge/-storytelling-purple)](./industries/storytelling.md)
 [![technology](https://img.shields.io/badge/-technology-green)](./industries/technology.md)
 [![web_development](https://img.shields.io/badge/-web_development-yellow)](./industries/web_development.md)
 [![writing](https://img.shields.io/badge/-writing-lightpink)](./industries/writing.md)
+[![artificial_intelligence](https://img.shields.io/badge/-artificial_intelligence-blue)](./specific_topics/artificial_intelligence.md)
+[![back_end_development](https://img.shields.io/badge/-back_end_development-green)](./specific_topics/back_end_development.md)
+[![cloud_computing](https://img.shields.io/badge/-cloud_computing-yellow)](./specific_topics/cloud_computing.md)
+[![computer_graphics](https://img.shields.io/badge/-computer_graphics-blue)](./specific_topics/computer_graphics.md)
+[![computer_networking](https://img.shields.io/badge/-computer_networking-green)](./specific_topics/computer_networking.md)
+[![computer_security](https://img.shields.io/badge/-computer_security-yellow)](./specific_topics/computer_security.md)
+[![computer_vision](https://img.shields.io/badge/-computer_vision-blue)](./specific_topics/computer_vision.md)
+[![data_structures](https://img.shields.io/badge/-data_structures-green)](./specific_topics/data_structures.md)
+[![databases](https://img.shields.io/badge/-databases-purple)](./specific_topics/databases.md)
+[![design](https://img.shields.io/badge/-design-blue)](./specific_topics/design.md)
 
+</div>
 
 ## Contributing
 
@@ -111,52 +120,12 @@ Your contributions are always welcome! Please take a look at the [contribution g
 ## Contents
 
 - [Awesome Courses](#awesome-courses)
-  - [Specific Topics List](#specific-topics-list)
   - [Acknowledgements](#acknowledgements)
 
 
 
 
 # Awesome Courses
-- [nutrition](./industries/nutrition.md)
-- [other](./industries/other.md)
-- [parenting](./industries/parenting.md)
-- [personal_development](./industries/personal_development.md)
-- [pets](./industries/pets.md)
-- [philosophy](./industries/philosophy.md)
-- [photography](./industries/photography.md)
-- [physics](./industries/physics.md)
-- [politics](./industries/politics.md)
-- [product_design](./industries/product_design.md)
-- [productivity](./industries/productivity.md)
-- [psychology](./industries/psychology.md)
-- [public_relations](./industries/public_relations.md)
-- [religion](./industries/religion.md)
-- [robotics](./industries/robotics.md)
-- [science](./industries/science.md)
-- [self_improvement](./industries/self_improvement.md)
-- [sociology](./industries/sociology.md)
-- [software_engineering](./industries/software_engineering.md)
-- [sports](./industries/sports.md)
-- [technology](./industries/technology.md)
-- [travel](./industries/travel.md)
-- [ux_design](./industries/ux_design.md)
-- [videography](./industries/videography.md)
-- [web_development](./industries/web_development.md)
-
-## Specific Topics List
-- [artificial_intelligence](./specific_topics/artificial_intelligence.md)
-- [back_end_development](./specific_topics/back_end_development.md)
-- [cloud_computing](./specific_topics/cloud_computing.md)
-- [computer_graphics](./specific_topics/computer_graphics.md)
-- [computer_networking](./specific_topics/computer_networking.md)
-- [computer_security](./specific_topics/computer_security.md)
-- [computer_vision](./specific_topics/computer_vision.md)
-- [data_structures](./specific_topics/data_structures.md)
-- [databases](./specific_topics/databases.md)
-- [design](./specific_topics/design.md)
-
-
 
 
 ## Acknowledgements
