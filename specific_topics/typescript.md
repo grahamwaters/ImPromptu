@@ -1,1 +1,1 @@
-# web_development - typescript
+## Prompts for typescript

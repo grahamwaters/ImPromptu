@@ -66,7 +66,11 @@ def populate_files_from_csv():
         with open(f"specific_topics/{str(topic_string).replace(' ', '_')}.md", "a+") as f: # open the file in append mode, create it only if it doesn't exist
             # convert the topic_string topic back to a normal word (e.g. "specific_topic" -> "specific topic")
             topic = topic_string.replace("_", " ")
-            for _, row in prompts_df.iterrows():
+
+            # define a small data frame with only the rows where the topic matches the topic_string
+            prompts_df_sub = prompts_df[prompts_df['topic'] == topic_string]
+            # iterate through the rows of the data frame
+            for _, row in prompts_df_sub.iterrows():
                 if not pd.isna(row['contributor']):
                     contributor = row['contributor']
                 else:
@@ -80,17 +84,33 @@ def populate_files_from_csv():
                         f.write(f"Contributed by: [@f]({contributor})\n")
                         f.write(f"> {prompt}\n")
                     else:
-                        print("topic: ", row['topic'], " vs topic_string: ", topic_string)
+                        #print("topic: ", row['topic'], " vs topic_string: ", topic_string)
+                        pass
                 except Exception as e:
                     print(e)
                     continue
         print(f"Finished populating {topic}.md")
 
 
+
+
+######## Fresh Start ########
+# Starting with a csv already created and populated with prompts
+# we want to distribute those prompts into markdown files that are named by the topic. To do this we need to categorize the prompts by topic.
+# We can make a new column in the csv file that is the topic, and then we can use that to populate the markdown files.
+# We can also use the topic column to make sure that the prompts are only added to the markdown files that are named after the topic.
+# Step 1: Create a new column in the csv file that is the topic
+# open the csv file
+prompts_df = pd.read_csv("prompts.csv")
+
+
+# Step 2: Populate the markdown files with the prompts from the csv file
+
+
 def main():
     create_prompts_csv("readme_other.md")
     # extract_prompts("readme_other.md", TOPICS)
-    populate_files_from_csv() # populate the markdown files in the "specific_topics" folder with the prompts from the csv file
+    #!populate_files_from_csv() # populate the markdown files in the "specific_topics" folder with the prompts from the csv file
 
 if __name__ == "__main__":
     main()

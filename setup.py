@@ -25,18 +25,17 @@ for industry in industries:
             f.write(f"# {str(industry).capitalize()}\n")
 
 
-subfiles = ["JavaScript", "Python", "C#", "Java", "C++", "C", "Ruby", "Swift", "PHP", "Go", "Rust", "Kotlin", "TypeScript",
+subfiles = ["JavaScript", "Python", "C#", "Java", "C++", "C", "Ruby", "Swift", "PHP", "Go", "Rust", "Kotlin", "TypeScript", "generator",
             "R", "Scala", "Perl", "Shell", "Objective-C", "SQL", "Excel Formulas", "Visio", "VBA", "Power BI", "SAS",
-            "Tableau", "QlikView", "D3.js", "Data Visualization", "Data Analysis", "Machine Learning", "Deep Learning",
+            "Tableau", "QlikView", "D3.js", "Data Visualization", "Data Analysis", "Machine Learning", "Deep Learning", "algorithm",
             "Computer Vision", "Natural Language Processing", "Data Science", "Big Data", "Data Engineering", "DevOps",
-            "Cloud Computing", "Docker", "Kubernetes", "AWS", "Azure", "Google Cloud", "Linux", "Windows", "macOS",
-            "iOS", "Android", "Pointers in Computer Science", "Algorithms", "Data Structures", "Operating Systems",
+            "Cloud Computing", "Docker", "Kubernetes", "AWS", "Azure", "Google Cloud", "Linux", "Windows", "macOS", "Detector", "Book",
+            "iOS", "Android", "Pointers in Computer Science", "Algorithms", "Data Structures", "Operating Systems", "Game", "Advice", ""
             "Networking", "Security", "Cryptography", "Blockchain", "IoT", "AR/VR", "Computer Graphics", "Computer Architecture",
-            "Compilers", "Assembler", "Debugging", "Testing", "Agile", "Scrum", "Kanban", "Lean", "Waterfall", "PMP",
-            "PRINCE2", "ITIL", "COBIT", "TOGAF", "SOA", "Microservices", "Monolithic", "Functional Programming",
-            "Object-Oriented Programming", "Procedural Programming", "Event-Driven Programming", "Concurrent Programming",
-            "Distributed Systems", "Parallel Computing", "High-Performance Computing", "Embedded Systems", "Firmware",
-            "Low-Level Programming", "Real-Time Systems"]
+            "Compilers", "Assembler", "Debugging", "Testing", "Agile", "Scrum", "Kanban", "Lean", "Waterfall", "PMP", "translate",
+            "PRINCE2", "ITIL", "COBIT", "TOGAF", "SOA", "Microservices", "Monolithic", "Functional Programming", "diet", "coach","english", "Regex", "Full Stack Development", "Front End Development", "Back End Development", "Mobile Development", "Desktop Development",
+            "Object-Oriented Programming", "Procedural Programming", "Event-Driven Programming", "Concurrent Programming", "Creator",
+            "Distributed Systems", "Parallel Computing", "High-Performance Computing", "Embedded Systems", "Firmware", "Post"]
 
 subfiles = sorted(subfiles)
 subfiles = [sub.replace(" ", "_").replace('.','_').replace('/','').lower() for sub in subfiles]

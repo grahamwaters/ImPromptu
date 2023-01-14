@@ -1,1 +1,1 @@
-# web_development - algorithms
+## Prompts for algorithms
