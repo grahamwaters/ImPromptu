@@ -17,6 +17,14 @@
         "documentation": {}
     },
     {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -76,6 +84,42 @@
         "importPath": "numpy",
         "description": "numpy",
         "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "github_fork_finder",
+        "description": "github_fork_finder",
+        "peekOfCode": "url = \"https://github.com/f/awesome-chatgpt-prompts/network/members\"\nresponse = requests.get(url)\nsoup = BeautifulSoup(response.content, \"html.parser\")\n# Find all the fork URLs on the page\nfork_urls = []\nfor element in soup.find_all(\"a\", class_=\"muted-link\"):\n    if \"Forks\" in element.text or 'chatgpt' in element.text:\n        fork_urls.append(element[\"href\"]) # element[\"href\"] is the URL of the fork\n        print(element[\"href\"])\n# save the links to a file",
+        "detail": "github_fork_finder",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "github_fork_finder",
+        "description": "github_fork_finder",
+        "peekOfCode": "response = requests.get(url)\nsoup = BeautifulSoup(response.content, \"html.parser\")\n# Find all the fork URLs on the page\nfork_urls = []\nfor element in soup.find_all(\"a\", class_=\"muted-link\"):\n    if \"Forks\" in element.text or 'chatgpt' in element.text:\n        fork_urls.append(element[\"href\"]) # element[\"href\"] is the URL of the fork\n        print(element[\"href\"])\n# save the links to a file\nwith open(\"fork_urls.txt\", \"w\") as f:",
+        "detail": "github_fork_finder",
+        "documentation": {}
+    },
+    {
+        "label": "soup",
+        "kind": 5,
+        "importPath": "github_fork_finder",
+        "description": "github_fork_finder",
+        "peekOfCode": "soup = BeautifulSoup(response.content, \"html.parser\")\n# Find all the fork URLs on the page\nfork_urls = []\nfor element in soup.find_all(\"a\", class_=\"muted-link\"):\n    if \"Forks\" in element.text or 'chatgpt' in element.text:\n        fork_urls.append(element[\"href\"]) # element[\"href\"] is the URL of the fork\n        print(element[\"href\"])\n# save the links to a file\nwith open(\"fork_urls.txt\", \"w\") as f:\n    for url in fork_urls:",
+        "detail": "github_fork_finder",
+        "documentation": {}
+    },
+    {
+        "label": "fork_urls",
+        "kind": 5,
+        "importPath": "github_fork_finder",
+        "description": "github_fork_finder",
+        "peekOfCode": "fork_urls = []\nfor element in soup.find_all(\"a\", class_=\"muted-link\"):\n    if \"Forks\" in element.text or 'chatgpt' in element.text:\n        fork_urls.append(element[\"href\"]) # element[\"href\"] is the URL of the fork\n        print(element[\"href\"])\n# save the links to a file\nwith open(\"fork_urls.txt\", \"w\") as f:\n    for url in fork_urls:\n        f.write(url + \"\\n\")\n# Iterate through each fork URL and scrape the contents of the \"readme.md\" file",
+        "detail": "github_fork_finder",
         "documentation": {}
     },
     {
