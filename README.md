@@ -1,6 +1,22 @@
-# The Ultimate chatGPT Prompt Bank! *Domain Agnostic Prompts for Savvy Professionals*
+<div align = 'center'>
+<h1>
+ChatGPTea
+</h1>
+A curated selection of the best prompts for savvy users of OpenAI's chatbot, chatGPT
+</div>
 
-## Industries List
+---
+
+## The Ultimate chatGPT Prompt List
+
+![main banner](./images/main.png)
+
+
+# Instructions
+
+Choose a subject area you are interested in, and click the link below to go to the page with prompts for that subject. If that page is empty, then you can help by adding prompts to that page. If you are not sure how to do that, you can read the [contributing guidelines](./CONTRIBUTING.md).
+
+## Focus Area List
 - [advertising](./industries/advertising.md)
 - [animation](./industries/animation.md)
 - [architecture](./industries/architecture.md)
