@@ -1,10 +1,9 @@
-# chatGPT Prompts For Everyone! *Domain Agnostic Prompts for Savvy Professionals*
+# The Ultimate chatGPT Prompt Bank! *Domain Agnostic Prompts for Savvy Professionals*
 
 ## Random Prompts from f/Awesome-ChatGPT-Prompts Repository
 [prompts](./prompts.csv)
 
 ## Industries List
-
 - [advertising](./industries/advertising.md)
 - [animation](./industries/animation.md)
 - [architecture](./industries/architecture.md)
