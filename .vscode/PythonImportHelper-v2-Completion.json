@@ -1,5 +1,31 @@
 [
     {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -50,6 +76,42 @@
         "importPath": "numpy",
         "description": "numpy",
         "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "github_search",
+        "description": "github_search",
+        "peekOfCode": "url = \"https://api.github.com/search/repositories?q=chatgpt+in:readme\"\nresponse = requests.get(url)\n# Parse the JSON response\ndata = json.loads(response.text)\n# Iterate through the list of repositories and store the URLs in a list\nrepo_urls = []\nfor repo in data[\"items\"]:\n    repo_urls.append(repo[\"html_url\"])\n# save repo_urls to a file\nwith open(\"repo_urls.txt\", \"w\") as f:",
+        "detail": "github_search",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "github_search",
+        "description": "github_search",
+        "peekOfCode": "response = requests.get(url)\n# Parse the JSON response\ndata = json.loads(response.text)\n# Iterate through the list of repositories and store the URLs in a list\nrepo_urls = []\nfor repo in data[\"items\"]:\n    repo_urls.append(repo[\"html_url\"])\n# save repo_urls to a file\nwith open(\"repo_urls.txt\", \"w\") as f:\n    for url in repo_urls:",
+        "detail": "github_search",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "github_search",
+        "description": "github_search",
+        "peekOfCode": "data = json.loads(response.text)\n# Iterate through the list of repositories and store the URLs in a list\nrepo_urls = []\nfor repo in data[\"items\"]:\n    repo_urls.append(repo[\"html_url\"])\n# save repo_urls to a file\nwith open(\"repo_urls.txt\", \"w\") as f:\n    for url in repo_urls:\n        f.write(url + \"\\n\")\n# Iterate through each repository URL and use Beautiful Soup to scrape the contents of the page",
+        "detail": "github_search",
+        "documentation": {}
+    },
+    {
+        "label": "repo_urls",
+        "kind": 5,
+        "importPath": "github_search",
+        "description": "github_search",
+        "peekOfCode": "repo_urls = []\nfor repo in data[\"items\"]:\n    repo_urls.append(repo[\"html_url\"])\n# save repo_urls to a file\nwith open(\"repo_urls.txt\", \"w\") as f:\n    for url in repo_urls:\n        f.write(url + \"\\n\")\n# Iterate through each repository URL and use Beautiful Soup to scrape the contents of the page\nfor url in repo_urls:\n    page = requests.get(url)",
+        "detail": "github_search",
         "documentation": {}
     },
     {
