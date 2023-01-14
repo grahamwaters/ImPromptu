@@ -39,6 +39,10 @@ If you are feeling like having your mind melt into magic today then head over to
 successimportantcriticalinformationalinactive
 bluevioletff69b49cf -->
 
+If you're not into the whole, color cloud concept check out our vanilla list option [here](./vanilla_list.md)
+
+
+
 [![Advertising](https://img.shields.io/badge/-Advertising-green)](./industries/advertising.md)
 [![animation](https://img.shields.io/badge/-animation-black)](./industries/animation.md)
 [![architecture](https://img.shields.io/badge/-architecture-blue)](./industries/animation.md)
