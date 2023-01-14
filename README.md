@@ -35,6 +35,11 @@ If you are feeling like having your mind melt into magic today then head over to
 <div align='center'>
 
 <h1>Topics To Choose From</h1>
+<!-- brightgreengreenyellowgreenyelloworangeredbluelightgrey
+successimportantcriticalinformationalinactive
+bluevioletff69b49cf -->
+
+
 
 [![Advertising](https://img.shields.io/badge/-Advertising-green)](./industries/advertising.md)
 [![animation](https://img.shields.io/badge/-animation-black)](./industries/animation.md)
@@ -45,21 +50,21 @@ If you are feeling like having your mind melt into magic today then head over to
 [![biology](https://img.shields.io/badge/-biology-green)](./industries/biology.md)
 [![business](https://img.shields.io/badge/-business-yellow)](./industries/business.md)
 [![career_development](https://img.shields.io/badge/-career_development-blue)](./industries/career_development.md)
-[![chemistry](https://img.shields.io/badge/-chemistry-green)](./industries/chemistry.md)
+[![chemistry](https://img.shields.io/badge/-chemistry-violet)](./industries/chemistry.md)
 [![computer_science](https://img.shields.io/badge/-computer_science-yellow)](./industries/computer_science.md)
 [![cooking](https://img.shields.io/badge/-cooking-blue)](./industries/cooking.md)
 [![crafts](https://img.shields.io/badge/-crafts-green)](./industries/crafts.md)
 [![data_science](https://img.shields.io/badge/-data_science-red)](./industries/data_science.md)
 [![economics](https://img.shields.io/badge/-economics-orange)](./industries/economics.md)
 [![education](https://img.shields.io/badge/-education-pink)](./industries/education.md)
-[![engineering](https://img.shields.io/badge/-engineering-yellow)](./industries/engineering.md)
-[![entrepreneurship](https://img.shields.io/badge/-entrepreneurship-blue)](./industries/entrepreneurship.md)
+[![engineering](https://img.shields.io/badge/-engineering-success)](./industries/engineering.md)
+[![entrepreneurship](https://img.shields.io/badge/-entrepreneurship-information)](./industries/entrepreneurship.md)
 [![fashion](https://img.shields.io/badge/-fashion-green)](./industries/fashion.md)
 [![film](https://img.shields.io/badge/-film-yellow)](./industries/film.md)
 [![finance](https://img.shields.io/badge/-finance-green)](./industries/finance.md)
 [![food](https://img.shields.io/badge/-food-pink)](./industries/food.md)
 [![gaming](https://img.shields.io/badge/-gaming-yellow)](./industries/gaming.md)
-[![gaming](https://img.shields.io/badge/-gaming-blue)](./industries/gaming.md)
+[![gaming](https://img.shields.io/badge/-gaming-blueviolet)](./industries/gaming.md)
 [![graphic_design](https://img.shields.io/badge/-graphic_design-green)](./industries/graphic_design.md)
 [![health](https://img.shields.io/badge/-health-yellow)](./industries/health.md)
 [![history](https://img.shields.io/badge/-history-blue)](./industries/history.md)
@@ -76,7 +81,7 @@ If you are feeling like having your mind melt into magic today then head over to
 [![music_production](https://img.shields.io/badge/-music_production-yellow)](./industries/music_production.md)
 [![nature](https://img.shields.io/badge/-nature-lightgreen)](./industries/nature.md)
 [![nutrition](https://img.shields.io/badge/-nutrition-blue)](./industries/nutrition.md)
-[![other](https://img.shields.io/badge/-other-green)](./industries/other.md)
+[![other](https://img.shields.io/badge/-other-blueviolet)](./industries/other.md)
 [![parenting](https://img.shields.io/badge/-parenting-red)](./industries/parenting.md)
 [![personal_development](https://img.shields.io/badge/-personal_development-blue)](./industries/personal_development.md)
 [![pets](https://img.shields.io/badge/-pets-green)](./industries/pets.md)
@@ -88,7 +93,7 @@ If you are feeling like having your mind melt into magic today then head over to
 [![productivity](https://img.shields.io/badge/-productivity-green)](./industries/productivity.md)
 [![psychology](https://img.shields.io/badge/-psychology-yellow)](./industries/psychology.md)
 [![public_relations](https://img.shields.io/badge/-public_relations-blue)](./industries/public_relations.md)
-[![religion](https://img.shields.io/badge/-religion-green)](./industries/religion.md)
+[![religion](https://img.shields.io/badge/-religion-critical)](./industries/religion.md)
 [![robotics](https://img.shields.io/badge/-robotics-yellow)](./industries/robotics.md)
 [![science](https://img.shields.io/badge/-science-blue)](./industries/science.md)
 [![self_improvement](https://img.shields.io/badge/-self_improvement-blue)](./industries/self_improvement.md)
