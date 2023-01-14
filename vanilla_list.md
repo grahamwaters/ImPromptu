@@ -1,48 +1,4 @@
-<div align = 'center'>
-<h1>
-ChatGPTea
-</h1>
-A curated selection of the best prompts for savvy users of OpenAI's chatbot, chatGPT
-
----
-
-[![GitHub issues](https://img.shields.io/github/issues/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/issues?q=is%3Aissue+is%3Aclosed)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/pulls)
-[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/pulls?q=is%3Apr+is%3Aclosed)
-[![GitHub contributors](https://img.shields.io/github/contributors/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/graphs/contributors)
-
----
-
-</div>
-
-
-## The Ultimate chatGPT Prompt List
-
-![main banner](./images/main.png)
-
-
-
-
-# Instructions
-
-Choose a subject area you are interested in, and click the link below to go to the page with prompts for that subject. If that page is empty, then you can help by adding prompts to that page. If you are not sure how to do that, you can read the [contributing guidelines](./CONTRIBUTING.md).
-
-# Prompt Generator
-If you are feeling like having your mind melt into magic today then head over to the [prompt generator](./prompt_generator.py) and let the magic happen. This script will literally write your prompts for you, as if chatGPT wasn't enough magic for you already.
-
-<div align='center'>
-
-<h1>Topics To Choose From</h1>
-<!-- brightgreengreenyellowgreenyelloworangeredbluelightgrey
-successimportantcriticalinformationalinactive
-bluevioletff69b49cf -->
-
-If you're not into the whole, color cloud concept check out our vanilla list option [here](./vanilla_list.md)
-
-
-
-[![Advertising](https://img.shields.io/badge/-Advertising-green)](./industries/advertising.md)
+<!-- [![Advertising](https://img.shields.io/badge/-Advertising-green)](./industries/advertising.md)
 [![animation](https://img.shields.io/badge/-animation-black)](./industries/animation.md)
 [![architecture](https://img.shields.io/badge/-architecture-blue)](./industries/animation.md)
 [![art](https://img.shields.io/badge/-art-green)](./industries/art.md)
@@ -252,22 +208,224 @@ If you're not into the whole, color cloud concept check out our vanilla list opt
 [![concurrent programming](https://img.shields.io/badge/-concurrent%20programming-red)](./specific_topics/concurrent_programming.md)
 [![machine learning](https://img.shields.io/badge/-machine%20learning-blueviolet)](./specific_topics/machine_learning.md)
 [![power bi](https://img.shields.io/badge/-power%20bi-red)](./specific_topics/power_bi.md)
-[![azure](https://img.shields.io/badge/-azure-purple)](./specific_topics/azure.md)
+[![azure](https://img.shields.io/badge/-azure-purple)](./specific_topics/azure.md) -->
 
-</div>
+# The Options Available to You (so far)
+* [advice.md](./specific_topics/advice.md)
+* [agile.md](./specific_topics/agile.md)
+* [algorithm.md](./specific_topics/algorithm.md)
+* [algorithms.md](./specific_topics/algorithms.md)
+* [android.md](./specific_topics/android.md)
+* [arvr.md](./specific_topics/arvr.md)
+* [assembler.md](./specific_topics/assembler.md)
+* [aws.md](./specific_topics/aws.md)
+* [azure.md](./specific_topics/azure.md)
+<!-- * [back end development.md](./specific_topics/back end development.md) -->
+* [back_end_development.md](./specific_topics/back_end_development.md)
+<!-- * [big data.md](./specific_topics/big data.md) -->
+* [big_data.md](./specific_topics/big_data.md)
+* [blockchain.md](./specific_topics/blockchain.md)
+* [book.md](./specific_topics/book.md)
+* [c#.md](./specific_topics/c#.md)
+* [c++.md](./specific_topics/c++.md)
+* [c.md](./specific_topics/c.md)
+<!-- * [cloud computing.md](./specific_topics/cloud computing.md) -->
+* [cloud_computing.md](./specific_topics/cloud_computing.md)
+* [coach.md](./specific_topics/coach.md)
+* [cobit.md](./specific_topics/cobit.md)
+* [compilers.md](./specific_topics/compilers.md)
+<!-- * [computer architecture.md](./specific_topics/computer architecture.md)
+* [computer graphics.md](./specific_topics/computer graphics.md)
+* [computer vision.md](./specific_topics/computer vision.md) -->
+* [computer_architecture.md](./specific_topics/computer_architecture.md)
+* [computer_graphics.md](./specific_topics/computer_graphics.md)
+* [computer_vision.md](./specific_topics/computer_vision.md)
+<!-- * [concurrent programming.md](./specific_topics/concurrent programming.md) -->
+* [concurrent_programming.md](./specific_topics/concurrent_programming.md)
+* [creator.md](./specific_topics/creator.md)
+* [cryptography.md](./specific_topics/cryptography.md)
+<!-- * [d3 js.md](./specific_topics/d3 js.md) -->
+* [d3_js.md](./specific_topics/d3_js.md)
+<!-- * [data analysis.md](./specific_topics/data analysis.md) -->
+<!-- * [data engineering.md](./specific_topics/data engineering.md) -->
+<!-- * [data science.md](./specific_topics/data science.md) -->
+<!-- * [data structures.md](./specific_topics/data structures.md) -->
+<!-- * [data visualization.md](./specific_topics/data visualization.md) -->
+* [data_analysis.md](./specific_topics/data_analysis.md)
+* [data_engineering.md](./specific_topics/data_engineering.md)
+* [data_science.md](./specific_topics/data_science.md)
+* [data_structures.md](./specific_topics/data_structures.md)
+* [data_visualization.md](./specific_topics/data_visualization.md)
+* [debugging.md](./specific_topics/debugging.md)
+<!-- * [deep learning.md](./specific_topics/deep learning.md) -->
+* [deep_learning.md](./specific_topics/deep_learning.md)
+<!-- * [desktop development.md](./specific_topics/desktop development.md) -->
+* [desktop_development.md](./specific_topics/desktop_development.md)
+* [detector.md](./specific_topics/detector.md)
+* [devops.md](./specific_topics/devops.md)
+* [diet.md](./specific_topics/diet.md)
+<!-- * [distributed systems.md](./specific_topics/distributed systems.md) -->
+* [distributed_systems.md](./specific_topics/distributed_systems.md)
+* [docker.md](./specific_topics/docker.md)
+<!-- * [embedded systems.md](./specific_topics/embedded systems.md) -->
+* [embedded_systems.md](./specific_topics/embedded_systems.md)
+* [english.md](./specific_topics/english.md)
+<!-- * [event-driven programming.md](./specific_topics/event-driven programming.md) -->
+* [event-driven_programming.md](./specific_topics/event-driven_programming.md)
+<!-- * [excel formulas.md](./specific_topics/excel formulas.md) -->
+* [excel_formulas.md](./specific_topics/excel_formulas.md)
+* [firmware.md](./specific_topics/firmware.md)
+<!-- * [front end development.md](./specific_topics/front end development.md) -->
+* [front_end_development.md](./specific_topics/front_end_development.md)
+<!-- * [full stack development.md](./specific_topics/full stack development.md) -->
+* [full_stack_development.md](./specific_topics/full_stack_development.md)
+<!-- * [functional programming.md](./specific_topics/functional programming.md) -->
+* [functional_programming.md](./specific_topics/functional_programming.md)
+* [game.md](./specific_topics/game.md)
+* [generator.md](./specific_topics/generator.md)
+* [go.md](./specific_topics/go.md)
+<!-- * [google cloud.md](./specific_topics/google cloud.md) -->
+* [google_cloud.md](./specific_topics/google_cloud.md)
+<!-- * [high-performance computing.md](./specific_topics/high-performance computing.md) -->
+* [high-performance_computing.md](./specific_topics/high-performance_computing.md)
+* [ios.md](./specific_topics/ios.md)
+* [iot.md](./specific_topics/iot.md)
+* [itil.md](./specific_topics/itil.md)
+* [java.md](./specific_topics/java.md)
+* [javascript.md](./specific_topics/javascript.md)
+* [kanban.md](./specific_topics/kanban.md)
+* [kotlin.md](./specific_topics/kotlin.md)
+* [kubernetes.md](./specific_topics/kubernetes.md)
+* [lean.md](./specific_topics/lean.md)
+* [linux.md](./specific_topics/linux.md)
+<!-- * [machine learning.md](./specific_topics/machine learning.md) -->
+* [machine_learning.md](./specific_topics/machine_learning.md)
+* [macos.md](./specific_topics/macos.md)
+* [mathematician.md](./specific_topics/mathematician.md)
+* [microservices.md](./specific_topics/microservices.md)
+<!-- * [mobile development.md](./specific_topics/mobile development.md) -->
+* [mobile_development.md](./specific_topics/mobile_development.md)
+* [monolithic.md](./specific_topics/monolithic.md)
+<!-- * [natural language processing.md](./specific_topics/natural language processing.md) -->
+* [natural_language_processing.md](./specific_topics/natural_language_processing.md)
+* [networking.md](./specific_topics/networking.md)
+<!-- * [object-oriented programming.md](./specific_topics/object-oriented programming.md) -->
+* [object-oriented_programming.md](./specific_topics/object-oriented_programming.md)
+* [objective-c.md](./specific_topics/objective-c.md)
+<!-- * [operating systems.md](./specific_topics/operating systems.md) -->
+* [operating_systems.md](./specific_topics/operating_systems.md)
+<!-- * [parallel computing.md](./specific_topics/parallel computing.md) -->
+* [parallel_computing.md](./specific_topics/parallel_computing.md)
+* [perl.md](./specific_topics/perl.md)
+* [php.md](./specific_topics/php.md)
+* [physicist.md](./specific_topics/physicist.md)
+* [pmp.md](./specific_topics/pmp.md)
+<!-- * [pointers in computer science.md](./specific_topics/pointers in computer science.md) -->
+* [pointers_in_computer_science.md](./specific_topics/pointers_in_computer_science.md)
+* [post.md](./specific_topics/post.md)
+* [power bi.md](./specific_topics/power bi.md)
+* [power_bi.md](./specific_topics/power_bi.md)
+* [prince2.md](./specific_topics/prince2.md)
+<!-- * [procedural programming.md](./specific_topics/procedural programming.md) -->
+* [procedural_programming.md](./specific_topics/procedural_programming.md)
+* [professor.md](./specific_topics/professor.md)
+* [python.md](./specific_topics/python.md)
+* [qlikview.md](./specific_topics/qlikview.md)
+* [r.md](./specific_topics/r.md)
+* [regex.md](./specific_topics/regex.md)
+* [ruby.md](./specific_topics/ruby.md)
+* [rust.md](./specific_topics/rust.md)
+* [sas.md](./specific_topics/sas.md)
+* [scala.md](./specific_topics/scala.md)
+* [scrum.md](./specific_topics/scrum.md)
+* [security.md](./specific_topics/security.md)
+* [shell.md](./specific_topics/shell.md)
+* [soa.md](./specific_topics/soa.md)
+* [specific_topics_directory.md](./specific_topics/specific_topics_directory.md)
+* [sql.md](./specific_topics/sql.md)
+* [swift.md](./specific_topics/swift.md)
+* [tableau.md](./specific_topics/tableau.md)
+* [testing.md](./specific_topics/testing.md)
+* [togaf.md](./specific_topics/togaf.md)
+* [translate.md](./specific_topics/translate.md)
+* [typescript.md](./specific_topics/typescript.md)
+* [vba.md](./specific_topics/vba.md)
+* [visio.md](./specific_topics/visio.md)
+* [waterfall.md](./specific_topics/waterfall.md)
+* [windows.md](./specific_topics/windows.md)
 
 
-## Contributing
 
-Your contributions are always welcome! Please take a look at the [contribution guidelines](./CONTRIBUTING.md) first.
-
-## License
-
-<!-- add MIT license badge here -->
-
-This project is licensed under the terms of the MIT license.
-
-
-## Acknowledgements
-- [chatGPT](openai.com) - OpenAI's chatbot
-- [f/Awesome-ChatGPT-Prompts Repository](https://github.com/f/awesome-chatgpt-prompts)
+<!-- # Topics Available to Add to the Project
+1.[ ] - [Advertising](./specific_topics/advertising.md)
+2.[ ] - [Algorithms](./specific_topics/algorithms.md)
+3.[ ] - [Android](./specific_topics/android.md)
+4.[ ] - [Angular](./specific_topics/angular.md)
+5.[ ] - [Apache Spark](./specific_topics/apache_spark.md)
+6.[ ] - [Artificial Intelligence](./specific_topics/artificial_intelligence.md)
+7.[ ] - [ASP.NET](./specific_topics/asp.net.md)
+8.[ ] - [Augmented Reality](./specific_topics/augmented_reality.md)
+9.[ ] - [Blockchain](./specific_topics/blockchain.md)
+10.[ ] - [Bootstrap](./specific_topics/bootstrap.md)
+11.[ ] - [C](./specific_topics/c.md)
+12.[ ] - [C#](./specific_topics/c#.md)
+13.[ ] - [C++](./specific_topics/c++.md)
+14.[ ] - [Cassandra](./specific_topics/cassandra.md)
+15.[ ] - [Cloud Computing](./specific_topics/cloud_computing.md)
+16.[ ] - [Computer Networking](./specific_topics/computer_networking.md)
+17.[ ] - [Computer Science](./specific_topics/computer_science.md)
+18.[ ] - [CSS](./specific_topics/css.md)
+19.[ ] - [Data Science](./specific_topics/data_science.md)
+20.[ ] - [Databases](./specific_topics/databases.md)
+21.[ ] - [Django](./specific_topics/django.md)
+22.[ ] - [Docker](./specific_topics/docker.md)
+23.[ ] - [Elasticsearch](./specific_topics/elasticsearch.md)
+24.[ ] - [Elixir](./specific_topics/elixir.md)
+25.[ ] - [Erlang](./specific_topics/erlang.md)
+26.[ ] - [Excel](./specific_topics/excel.md)
+27.[ ] - [Facebook](./specific_topics/facebook.md)
+28.[ ] - [Firebase](./specific_topics/firebase.md)
+29.[ ] - [Git](./specific_topics/git.md)
+30.[ ] - [Go](./specific_topics/go.md)
+31.[ ] - [Google Cloud](./specific_topics/google_cloud.md)
+32.[ ] - [Google Sheets](./specific_topics/google_sheets.md)
+33.[ ] - [GraphQL](./specific_topics/graphql.md)
+34.[ ] - [HTML](./specific_topics/html.md)
+35.[ ] - [iOS](./specific_topics/ios.md)
+36.[ ] - [Java](./specific_topics/java.md)
+37.[ ] - [JavaScript](./specific_topics/javascript.md)
+38.[ ] - [jQuery](./specific_topics/jquery.md)
+39.[ ] - [JSON](./specific_topics/json.md)
+40.[ ] - [Kotlin](./specific_topics/kotlin.md)
+41.[ ] - [Linux](./specific_topics/linux.md)
+42.[ ] - [Machine Learning](./specific_topics/machine_learning.md)
+43.[ ] - [Matlab](./specific_topics/matlab.md)
+44.[ ] - [Microsoft Office](./specific_topics/microsoft_office.md)
+45.[ ] - [MongoDB](./specific_topics/mongodb.md)
+46.[ ] - [MySQL](./specific_topics/mysql.md)
+47.[ ] - [Node.js](./specific_topics/node.js.md)
+48.[ ] - [Objective-C](./specific_topics/objective-c.md)
+49.[ ] - [Oracle](./specific_topics/oracle.md)
+50.[ ] - [PHP](./specific_topics/php.md)
+51.[ ] - [Power BI](./specific_topics/power_bi.md)
+52.[ ] - [PowerShell](./specific_topics/powershell.md)
+53.[ ] - [Python](./specific_topics/python.md)
+54.[ ] - [R](./specific_topics/r.md)
+55.[ ] - [React](./specific_topics/react.md)
+56.[ ] - [React Native](./specific_topics/react_native.md)
+57.[ ] - [Redis](./specific_topics/redis.md)
+58.[ ] - [Ruby](./specific_topics/ruby.md)
+59.[ ] - [Ruby on Rails](./specific_topics/ruby_on_rails.md)
+60.[ ] - [Salesforce](./specific_topics/salesforce.md)
+61.[ ] - [SAP](./specific_topics/sap.md)
+62.[ ] - [Scala](./specific_topics/scala.md)
+63.[ ] - [Security](./specific_topics/security.md)
+64.[ ] - [Shell](./specific_topics/shell.md)
+65.[ ] - [SQL](./specific_topics/sql.md)
+66.[ ] - [Swift](./specific_topics/swift.md)
+67.[ ] - [TensorFlow](./specific_topics/tensorflow.md)
+68.[ ] - [TypeScript](./specific_topics/typescript.md)
+69.[ ] - [VBA](./specific_topics/vba.md)
+70.[ ] - [Vue.js](./specific_topics/vue.js.md)
+71.[ ] - [Web Development](./specific_topics/web_development.md)
+72.[ ] - [Windows](./specific_topics/windows.md) -->
