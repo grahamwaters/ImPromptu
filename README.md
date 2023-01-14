@@ -39,8 +39,6 @@ If you are feeling like having your mind melt into magic today then head over to
 successimportantcriticalinformationalinactive
 bluevioletff69b49cf -->
 
-
-
 [![Advertising](https://img.shields.io/badge/-Advertising-green)](./industries/advertising.md)
 [![animation](https://img.shields.io/badge/-animation-black)](./industries/animation.md)
 [![architecture](https://img.shields.io/badge/-architecture-blue)](./industries/animation.md)
@@ -169,7 +167,6 @@ bluevioletff69b49cf -->
 [![deep learning](https://img.shields.io/badge/-deep%20learning-orange)](./specific_topics/deep_learning.md)
 [![pmp](https://img.shields.io/badge/-pmp-blueviolet)](./specific_topics/pmp.md)
 [![data visualization](https://img.shields.io/badge/-data%20visualization-pink)](./specific_topics/data_visualization.md)
-[![parallel computing](https://img.shields.io/badge/-parallel%20computing-blueviolet)](./specific_topics/parallel_computing.md)
 [![cloud computing](https://img.shields.io/badge/-cloud%20computing-grey)](./specific_topics/cloud_computing.md)
 [![excel formulas](https://img.shields.io/badge/-excel%20formulas-blueviolet)](./specific_topics/excel_formulas.md)
 [![creator](https://img.shields.io/badge/-creator-purple)](./specific_topics/creator.md)
@@ -216,7 +213,6 @@ bluevioletff69b49cf -->
 [![tableau](https://img.shields.io/badge/-tableau-green)](./specific_topics/tableau.md)
 [![operating systems](https://img.shields.io/badge/-operating%20systems-green)](./specific_topics/operating_systems.md)
 [![translate](https://img.shields.io/badge/-translate-informational)](./specific_topics/translate.md)
-[![high-performance computing](https://img.shields.io/badge/-high%20performance%20computing-lightgreen)](./specific_topics/high-performance_computing.md)
 [![d3 js](https://img.shields.io/badge/-d3%20js-orange)](./specific_topics/d3_js.md)
 [![sas](https://img.shields.io/badge/-sas-grey)](./specific_topics/sas.md)
 [![ios](https://img.shields.io/badge/-ios-blueviolet)](./specific_topics/ios.md)
@@ -243,7 +239,6 @@ bluevioletff69b49cf -->
 [![google cloud](https://img.shields.io/badge/-google%20cloud-informational)](./specific_topics/google_cloud.md)
 [![big data](https://img.shields.io/badge/-big%20data-red)](./specific_topics/big_data.md)
 [![typescript](https://img.shields.io/badge/-typescript-red)](./specific_topics/typescript.md)
-[![high-performance computing](https://img.shields.io/badge/-high-performance%20computing-blueviolet)](./specific_topics/high-performance_computing.md)
 [![prince2](https://img.shields.io/badge/-prince2-purple)](./specific_topics/prince2.md)
 [![event-driven programming](https://img.shields.io/badge/-event%20driven%20programming-black)](./specific_topics/event-driven_programming.md)
 [![data engineering](https://img.shields.io/badge/-data%20engineering-red)](./specific_topics/data_engineering.md)
@@ -252,7 +247,6 @@ bluevioletff69b49cf -->
 [![shell](https://img.shields.io/badge/-shell-red)](./specific_topics/shell.md)
 [![security](https://img.shields.io/badge/-security-yellow)](./specific_topics/security.md)
 [![concurrent programming](https://img.shields.io/badge/-concurrent%20programming-red)](./specific_topics/concurrent_programming.md)
-[![specific topics directory](https://img.shields.io/badge/-specific%20topics%20directory-blue)](./specific_topics/specific_topics_directory.md)
 [![machine learning](https://img.shields.io/badge/-machine%20learning-blueviolet)](./specific_topics/machine_learning.md)
 [![power bi](https://img.shields.io/badge/-power%20bi-red)](./specific_topics/power_bi.md)
 [![azure](https://img.shields.io/badge/-azure-purple)](./specific_topics/azure.md)
