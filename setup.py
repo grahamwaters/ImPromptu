@@ -25,8 +25,7 @@ for industry in industries:
             f.write(f"# {str(industry).capitalize()}\n")
 
 
-subfiles = ["JavaScript", "Python", "C#", "Java", "C++", "C", "Ruby", "Swift", "PHP", "Go", "Rust", "Kotlin", "TypeScript", "generator",
-            "R", "Scala", "Perl", "Shell", "Objective-C", "SQL", "Excel Formulas", "Visio", "VBA", "Power BI", "SAS",
+subfiles = ["JavaScript", "Python", "C#", "Java", "C++", "C", "Ruby", "Swift", "PHP", "Go", "Rust", "Kotlin", "TypeScript", "generator", "mathematician","physicist","professor","R", "Scala", "Perl", "Shell", "Objective-C", "SQL", "Excel Formulas", "Visio", "VBA", "Power BI", "SAS",
             "Tableau", "QlikView", "D3.js", "Data Visualization", "Data Analysis", "Machine Learning", "Deep Learning", "algorithm",
             "Computer Vision", "Natural Language Processing", "Data Science", "Big Data", "Data Engineering", "DevOps",
             "Cloud Computing", "Docker", "Kubernetes", "AWS", "Azure", "Google Cloud", "Linux", "Windows", "macOS", "Detector", "Book",
@@ -39,6 +38,8 @@ subfiles = ["JavaScript", "Python", "C#", "Java", "C++", "C", "Ruby", "Swift", "
 
 subfiles = sorted(subfiles)
 subfiles = [sub.replace(" ", "_").replace('.','_').replace('/','').lower() for sub in subfiles]
+# remove duplicates
+subfiles = list(dict.fromkeys(subfiles))
 
 
 def generate_readme_topics(industries, readme_file, subfiles):
