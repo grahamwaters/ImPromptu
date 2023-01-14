@@ -2,11 +2,15 @@ import re
 import os
 from tqdm.auto import tqdm
 import pandas as pd
+import os
+import csv
+
 # topics is a list of strings, each string is a topic which comes from the list of file names in the "specific_topics" folder
 TOPICS = os.listdir("specific_topics") # get the list of file names in the "specific_topics" folder
 TOPICS = [topic.replace(".md", "") for topic in TOPICS] # remove the ".md" from the file names
 TOPICS = [topic.replace("_", " ") for topic in TOPICS] # replace the underscores with spaces
-
+prompts_df = pd.read_csv("prompts.csv")
+import numpy as np
 
 def create_prompts_csv(markdown_file):
     prompts_df = pd.DataFrame(columns = ["topic", "prompt", "contributor","link"])
@@ -49,20 +53,44 @@ def extract_prompts(markdown_file,TOPICS):
     for topic in tqdm(TOPICS, total = len(TOPICS)):
         print(f"Extracting prompts for {topic}...")
         # the first edge is the first "##" and the second edge is the next "##" or the end of the file
-
-
-
-
         print(f"Found {len(topic_prompts)} prompts for {topic}.")
         # write the prompts to the file "topic.md" in the "specific_topics" folder
         with open(f"specific_topics/{topic.replace(' ', '_')}.md", "w") as f:
-            f.write(" # ".join(topic_prompts))
+            f.write("\n".join(topic_prompts))
 
+def populate_files_from_csv():
+    # code to read csv file and create prompts_df here
+    # make sure the topics are in the TOPICS list
+
+    for topic_string in tqdm(TOPICS, total = len(TOPICS)):
+        with open(f"specific_topics/{str(topic_string).replace(' ', '_')}.md", "a+") as f: # open the file in append mode, create it only if it doesn't exist
+            # convert the topic_string topic back to a normal word (e.g. "specific_topic" -> "specific topic")
+            topic = topic_string.replace("_", " ")
+            for _, row in prompts_df.iterrows():
+                if not pd.isna(row['contributor']):
+                    contributor = row['contributor']
+                else:
+                    contributor = "None"
+                try:
+                    if str(row['topic']).strip().lower() == topic.strip().lower(): # if the topic of the prompt is the same as the topic of the file
+                        #print("topic: ", row['topic'], " vs topic_string: ", topic_string)
+                        prompt = row['prompt']
+                        print(prompt)
+                        f.write(f"## {topic}\n")
+                        f.write(f"Contributed by: [@f]({contributor})\n")
+                        f.write(f"> {prompt}\n")
+                    else:
+                        print("topic: ", row['topic'], " vs topic_string: ", topic_string)
+                except Exception as e:
+                    print(e)
+                    continue
+        print(f"Finished populating {topic}.md")
 
 
 def main():
     create_prompts_csv("readme_other.md")
     # extract_prompts("readme_other.md", TOPICS)
+    populate_files_from_csv() # populate the markdown files in the "specific_topics" folder with the prompts from the csv file
 
 if __name__ == "__main__":
     main()
