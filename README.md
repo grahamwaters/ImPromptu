@@ -16,7 +16,6 @@ A curated selection of the best prompts for savvy users of OpenAI's chatbot, cha
 
 </div>
 
----
 
 ## The Ultimate chatGPT Prompt List
 
