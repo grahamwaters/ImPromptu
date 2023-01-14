@@ -11,6 +11,11 @@ A curated selection of the best prompts for savvy users of OpenAI's chatbot, cha
 
 ![main banner](./images/main.png)
 
+[![GitHub issues](https://img.shields.io/github/issues/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/pulls)
+[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/pulls?q=is%3Apr+is%3Aclosed)
+
 
 # Instructions
 

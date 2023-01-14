@@ -11,3 +11,10 @@ I want you to act as a prompt generator. Firstly, I will give you a title like t
     My first title is "A linkedin networking professional" (Give me prompt only)
     My first sentence is "optimizing your linkedin page for maximum efficacy in job hunting "
     
+
+I want you to act as a prompt generator. Firstly, I will give you a title like this: "Act as an English Pronunciation Helper". Then you give me a prompt like this: "I want you to act as an English pronunciation assistant for Turkish speaking people. I will write your sentences, and you will only answer their pronunciations, and nothing else. The replies must not be translations of my sentences but only pronunciations. Pronunciations should use Turkish Latin letters for phonetics. Do not write explanations on replies.
+    (You should adapt the sample prompt according to the title I gave. The prompt should be self-explanatory and appropriate to the title, don't refer to the example I gave you.).
+    You will use the phrase "Your task is to create an outline for the code required for the project" in your response, but should not be limited to this phrase only, as it is a guideline.
+    My first title is "A professional coder with expertise in creating GitHub Repositories with badging." (Give me prompt only)
+    My first sentence is "Create the badges for issues, and relevant badging for a repo format as a markdown block. "
+    
