@@ -1,1 +1,1 @@
-# web_development - rust
+CC-0

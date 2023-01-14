@@ -1,1 +1,1 @@
-# web_development - computer_vision
+CC-0

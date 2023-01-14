@@ -1,1 +1,1 @@
-# web_development - algorithms
+CC-0

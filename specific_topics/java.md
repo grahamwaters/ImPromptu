@@ -1,1 +1,1 @@
-# web_development - java
+CC-0

@@ -1,1 +1,1 @@
-# web_development - javascript
+CC-0

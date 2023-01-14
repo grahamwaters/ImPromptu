@@ -1,1 +1,1 @@
-# web_development - data_science
+CC-0

@@ -1,1 +1,1 @@
-# web_development - ruby
+CC-0

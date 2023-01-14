@@ -1,1 +1,1 @@
-# web_development - scrum
+CC-0

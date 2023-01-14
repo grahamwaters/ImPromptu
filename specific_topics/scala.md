@@ -1,1 +1,1 @@
-# web_development - scala
+CC-0

@@ -1,1 +1,1 @@
-# web_development - go
+CC-0

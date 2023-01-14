@@ -1,1 +1,1 @@
-# web_development - blockchain
+CC-0

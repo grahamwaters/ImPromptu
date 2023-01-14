@@ -1,1 +1,1 @@
-# web_development - sql
+CC-0

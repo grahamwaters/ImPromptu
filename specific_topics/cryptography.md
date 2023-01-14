@@ -1,1 +1,1 @@
-# web_development - cryptography
+CC-0

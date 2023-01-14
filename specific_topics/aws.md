@@ -1,1 +1,1 @@
-# web_development - aws
+CC-0
