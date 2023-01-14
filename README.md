@@ -16,6 +16,9 @@ A curated selection of the best prompts for savvy users of OpenAI's chatbot, cha
 
 Choose a subject area you are interested in, and click the link below to go to the page with prompts for that subject. If that page is empty, then you can help by adding prompts to that page. If you are not sure how to do that, you can read the [contributing guidelines](./CONTRIBUTING.md).
 
+# Prompt Generator
+If you are feeling like having your mind melt into magic today then head over to the [prompt generator](./prompt_generator.py) and let the magic happen. This script will literally write your prompts for you, as if chatGPT wasn't enough magic for you already.
+
 ## Focus Area List
 - [advertising](./industries/advertising.md)
 - [animation](./industries/animation.md)

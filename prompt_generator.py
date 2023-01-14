@@ -12,7 +12,9 @@ def make_a_prompt():
     first_sentence = input("Enter your first sentence: ")
     print("-"*50)
     the_prompt = """I want you to act as a prompt generator. Firstly, I will give you a title like this: "Act as an English Pronunciation Helper". Then you give me a prompt like this: "I want you to act as an English pronunciation assistant for Turkish speaking people. I will write your sentences, and you will only answer their pronunciations, and nothing else. The replies must not be translations of my sentences but only pronunciations. Pronunciations should use Turkish Latin letters for phonetics. Do not write explanations on replies.
-    (You should adapt the sample prompt according to the title I gave. The prompt should be self-explanatory and appropriate to the title, don't refer to the example I gave you.). You will use the phrase "Your task is to create an outline for the code required for the project" in your response.
+    (You should adapt the sample prompt according to the title I gave. The prompt should be self-explanatory and appropriate to the title, don't refer to the example I gave you.).
+    You will use the phrase "Your task is to create an outline for the code required for the project" in your response, but should not be limited to this phrase only, as it is a guideline.
+
     My first title is "{}" (Give me prompt only)
     My first sentence is "{}"
     """.format(bot_type, first_sentence)
