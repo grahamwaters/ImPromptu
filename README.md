@@ -1,8 +1,5 @@
 # The Ultimate chatGPT Prompt Bank! *Domain Agnostic Prompts for Savvy Professionals*
 
-## Random Prompts from f/Awesome-ChatGPT-Prompts Repository
-[prompts](./prompts.csv)
-
 ## Industries List
 - [advertising](./industries/advertising.md)
 - [animation](./industries/animation.md)
@@ -70,3 +67,22 @@
 - [ux_design](./industries/ux_design.md)
 - [videography](./industries/videography.md)
 - [web_development](./industries/web_development.md)
+
+## Specific Topics List
+- [artificial_intelligence](./specific_topics/artificial_intelligence.md)
+- [back_end_development](./specific_topics/back_end_development.md)
+- [cloud_computing](./specific_topics/cloud_computing.md)
+- [computer_graphics](./specific_topics/computer_graphics.md)
+- [computer_networking](./specific_topics/computer_networking.md)
+- [computer_security](./specific_topics/computer_security.md)
+- [computer_vision](./specific_topics/computer_vision.md)
+- [data_structures](./specific_topics/data_structures.md)
+- [databases](./specific_topics/databases.md)
+- [design](./specific_topics/design.md)
+
+
+
+
+## Acknowledgements
+- [chatGPT](openai.com) - OpenAI's chatbot
+- [f/Awesome-ChatGPT-Prompts Repository](https://github.com/f/awesome-chatgpt-prompts)
