@@ -40,9 +40,11 @@ bluevioletff69b49cf -->
 
 If you're not into the whole, color cloud concept check out our vanilla list option [here](./vanilla_list.md)
 
-
+The badge for `advertising` below is the goal for each of these subpages (and any others that are created). These will be populated with prompts from users like you! Go ahead... click it!
 
 [![Advertising](https://img.shields.io/badge/-Advertising-green)](./industries/advertising.md)
+
+
 [![animation](https://img.shields.io/badge/-animation-black)](./industries/animation.md)
 [![architecture](https://img.shields.io/badge/-architecture-blue)](./industries/animation.md)
 [![art](https://img.shields.io/badge/-art-green)](./industries/art.md)
