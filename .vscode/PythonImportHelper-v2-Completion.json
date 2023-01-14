@@ -57,7 +57,7 @@
         "kind": 2,
         "importPath": "prompt_generator",
         "description": "prompt_generator",
-        "peekOfCode": "def make_a_prompt():\n    print(\"Welcome to the prompt generator!\")\n    print(\"-\"*50)\n    print(\"Here's how it works:\\nWhat would you like chatGPT to pretend to be? (this can be anything from a professional bowler, to a seasoned machine learning engineer)\\n\")\n    bot_type = input(\"Enter your preference: \")\n    print(\"-\"*50)\n    print(f'Received: \"{bot_type}\", excellent choice!\\n')\n    print(\"Now, what would you your first sentence to be? This can help guide the crafted prompt.\\n\")\n    first_sentence = input(\"Enter your first sentence: \")\n    print(\"-\"*50)",
+        "peekOfCode": "def make_a_prompt():\n    print(\"Welcome to the prompt generator!\")\n    print(\"-\" * 50)\n    print(\n        \"Here's how it works:\\nWhat would you like chatGPT to pretend to be? (this can be anything from a professional bowler, to a seasoned machine learning engineer)\\n\"\n    )\n    bot_type = input(\"Enter your preference: \")\n    print(\"-\" * 50)\n    print(f'Received: \"{bot_type}\", excellent choice!\\n')\n    print(",
         "detail": "prompt_generator",
         "documentation": {}
     },
