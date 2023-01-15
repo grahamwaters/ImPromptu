@@ -15,53 +15,53 @@ def make_a_prompt():
     )
     time.sleep(2)
     print(" example: \"a professional mathematician\"")
-    #!bot_type = input("Enter your preference: ")
+    bot_type = input("Enter your preference: ")
     print("-" * 50)
-    #!print(f'Received: "{bot_type}", excellent choice!\n')
+    print(f'Received: "{bot_type}", excellent choice!\n')
     # give an example of a done this
     print(" example done this: \"you have used mathematics and code to find primes using higher level geometry.\"")
-    #!DONE_THIS = input("you have: ")
+    DONE_THIS = input("you have: ")
     print("-" * 50)
-    #!if "you have" not in DONE_THIS:
-    #!    DONE_THIS = "you have " + DONE_THIS
+    if "you have" not in DONE_THIS:
+        DONE_THIS = "you have " + DONE_THIS
     # give an example problem to solve
     print(" example problem: \"finding the next prime\"")
-    #!PROBLEM = input("what is the problem that the prompt is trying to solve: ")
+    PROBLEM = input("what is the problem that the prompt is trying to solve: ")
     print("-" * 50)
     print(" example duration: \"for 2 years\"")
-    #!DURATION = input("how long has the bot been {}: (if applicable) ".format(DONE_THIS))
+    DURATION = input("how long has the bot been {}: (if applicable) ".format(DONE_THIS))
     print("-" * 50)
     print(" example reason: \"to become the next prime finder\"")
-    #!REASON = input(f"why is this prompt, to solve {PROBLEM} being created: ")
+    REASON = input(f"why is this prompt, to solve {PROBLEM} being created: ")
     print("-" * 50)
     print(" example action: \"create a prompt to find the next prime\"")
-    #!GOAL = PROBLEM
+    GOAL = PROBLEM
     print(" example constraint: \"you must not use any code\"")
-    #!CONSTRAINT = input("what is the constraint that the prompt must follow: ")
+    CONSTRAINT = input("what is the constraint that the prompt must follow: ")
     print("-" * 50)
     print(" example constraint: \"you must always ask questions before you answer so you can better hone in on what the questioner is looking for\"")
-    #!CONSTRAINT2 = input("what is the constraint that the prompt must follow: ")
+    CONSTRAINT2 = input("what is the constraint that the prompt must follow: ")
     print("-" * 50)
     print(" example outcome: \"a prompt that can be used to... find the next prime\"")
-    #!OUTCOME = input("what is the outcome that the prompt will produce: ")
+    OUTCOME = input("what is the outcome that the prompt will produce: ")
     print("-" * 50)
     print(" example requirements: \"you must be able to answer questions and respond with appropriate and applicable feedback to the mans comments.\"")
-    #!REQUIREMENTS = input("what are the requirements that the model must have to accomplish the task: ")
+    REQUIREMENTS = input("what are the requirements that the model must have to accomplish the task: ")
 
 
-    bot_type = 'successful life coach, trained in psychology and social behavior'
-    GOAL = 'to help a user with their mental health'
-    PROBLEM = 'helping a man overcome his feeling that he is not qualified for a job he is about to interview for in data science for Home Depot.'
-    DONE_THIS = 'used the latest coaching strategies to improve the lives of people suffering from imposter syndrome'
-    REASON = ' To prepare for a session with the man tomorrow where this will be discussed in detail.'
-    CONSTRAINT = 'Use therapist best practices, ericksonian language patterns, and coaching techniques.'
-    CONSTRAINT2 = 'You must ask leading questions to guide the man to his own conclusions rather than giving him your own. '
-    CONSTRAINT3 = 'When `prompt_beta` is put into chatGPT, the outputted session should begin. DO NOT RESPOND TO THE PROMPT. Instead of responding to the prompt the session should start with an opening question like "Hello, I am glad that you came to our session today. How are you feeling?" From there it becomes a conversation between patient and therapist. Begin with a single question and then respond to the mans answer. DO NOT RESPOND WITH A LONG ANSWER OR A PARAGRAPH. Instead respond with a single sentence that is a response to the mans answer.'
-    ACTION = f'craft a prompt that makes chatGPT able to accomplish the goal: {GOAL}.'
-    OUTCOME = 'a prompt that can interact with a person as a life coach'
-    DURATION = '20 years'
-    REQUIREMENTS = 'you must be able to answer questions and respond with appropriate and applicable feedback to the mans comments.'
-    critical_instructions = f"""When this bot is conversing with a user it needs to know how to limit its output to a few sentences instead of long paragraphs that try to solve the whole issue at once. This is a very important part of the task, so please make sure that the prompt is optimized for this. Don't use the pattern "address the statement" then say "next, ..." and end up at "Finally," because that is not how humans talk. Try to make the prompt as human-like as possible, but also make sure that it is optimized for the task."""
+    # bot_type = 'successful life coach, trained in psychology and social behavior'
+    # GOAL = 'to help a user with their mental health'
+    # PROBLEM = 'helping a man overcome his feeling that he is not qualified for a job he is about to interview for in data science for Home Depot.'
+    # DONE_THIS = 'used the latest coaching strategies to improve the lives of people suffering from imposter syndrome'
+    # REASON = ' To prepare for a session with the man tomorrow where this will be discussed in detail.'
+    # CONSTRAINT = 'Use therapist best practices, ericksonian language patterns, and coaching techniques.'
+    # CONSTRAINT2 = 'You must ask leading questions to guide the man to his own conclusions rather than giving him your own. '
+    # CONSTRAINT3 = 'When `prompt_beta` is put into chatGPT, the outputted session should begin. DO NOT RESPOND TO THE PROMPT. Instead of responding to the prompt the session should start with an opening question like "Hello, I am glad that you came to our session today. How are you feeling?" From there it becomes a conversation between patient and therapist. Begin with a single question and then respond to the mans answer. DO NOT RESPOND WITH A LONG ANSWER OR A PARAGRAPH. Instead respond with a single sentence that is a response to the mans answer.'
+    # ACTION = f'craft a prompt that makes chatGPT able to accomplish the goal: {GOAL}.'
+    # OUTCOME = 'a prompt that can interact with a person as a life coach'
+    # DURATION = '20 years'
+    # REQUIREMENTS = 'you must be able to answer questions and respond with appropriate and applicable feedback to the mans comments.'
+    # critical_instructions = f"""When this bot is conversing with a user it needs to know how to limit its output to a few sentences instead of long paragraphs that try to solve the whole issue at once. This is a very important part of the task, so please make sure that the prompt is optimized for this. Don't use the pattern "address the statement" then say "next, ..." and end up at "Finally," because that is not how humans talk. Try to make the prompt as human-like as possible, but also make sure that it is optimized for the task."""
 
     THE_TEN_RULES = f"""
         The 10 rules for prompt generation are:
