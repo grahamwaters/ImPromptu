@@ -137,7 +137,7 @@
         "kind": 2,
         "importPath": "prompt_generator",
         "description": "prompt_generator",
-        "peekOfCode": "def make_a_prompt():\n    \"\"\"\n        This function, make_a_prompt, guides the user through the process of creating a prompt for the chatGPT model.\n        It prompts the user to input various pieces of information, such as the type of bot they would like the model to be,\n        the problem the prompt is trying to solve, and the constraints and requirements the prompt must follow.\n        It then uses this information to craft an action and outcome.\n        #NOTE: currently the inputs are commented out so that the function can be run without user input. see the #! comments for the inputs.\n    \"\"\"\n    print(\"Welcome to the prompt generator!\")\n    print(\"-\" * 50)",
+        "peekOfCode": "def make_a_prompt():\n    \"\"\"\n        This function, make_a_prompt, guides the user through the process of creating a prompt for the chatGPT model.\n        It prompts the user to input various pieces of information, such as the type of bot they would like the model to be,\n        the problem the prompt is trying to solve, and the constraints and requirements the prompt must follow.\n        It then uses this information to craft an action and outcome.\n        #NOTE: currently the inputs are commented out so that the function can be run without user input. see the #! comments for the inputs.\n    \"\"\"\n    input_mode = False # set to true to use the input mode, false to use the example mode\n    print(\"Welcome to the prompt generator!\")",
         "detail": "prompt_generator",
         "documentation": {}
     },
