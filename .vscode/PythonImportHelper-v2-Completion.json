@@ -9,6 +9,15 @@
         "documentation": {}
     },
     {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "re",
         "kind": 6,
         "isExtraImport": true,
@@ -57,7 +66,7 @@
         "kind": 2,
         "importPath": "prompt_generator",
         "description": "prompt_generator",
-        "peekOfCode": "def make_a_prompt():\n    print(\"Welcome to the prompt generator!\")\n    print(\"-\" * 50)\n    print(\n        \"Here's how it works:\\nWhat would you like chatGPT to pretend to be? (this can be anything from a professional bowler, to a seasoned machine learning engineer)\\n\"\n    )\n    bot_type = input(\"Enter your preference: \")\n    print(\"-\" * 50)\n    print(f'Received: \"{bot_type}\", excellent choice!\\n')\n    print(",
+        "peekOfCode": "def make_a_prompt():\n    print(\"Welcome to the prompt generator!\")\n    print(\"-\" * 50)\n    print(\n        \"Here's how it works:\\nWhat would you like chatGPT to pretend to be? (this can be anything from a professional bowler, to a seasoned machine learning engineer)\\n\"\n    )\n    time.sleep(2)\n    print(\" example: \\\"a professional mathematician\\\"\")\n    #!bot_type = input(\"Enter your preference: \")\n    print(\"-\" * 50)",
         "detail": "prompt_generator",
         "documentation": {}
     },
