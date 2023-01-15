@@ -18,7 +18,7 @@ def collect_badges(directory='specific_topics'):
     badge_texts = []
     badge_count = len(os.listdir(directory))
     for i in tqdm(range(badge_count)):
-        badge_color = random.choice(["orange", "red", "blue", "yellow", "pink", "purple", "grey", "blue", "blueviolet","brown", "darkgrey", "lightgreen", "darkgreen", "lightblue", "darkblue", "lightyellow", "darkyellow", "lightpink", "darkpink", "lightpurple", "darkpurple", "lightbrown", "darkbrown", "lightblack", "darkblack", "lightwhite", "darkwhite", "lightred", "darkred", "lightorange", "darkorange"])
+        badge_color = random.choice(["brightgreen", "green", "yellowgreen", "darkred","lightblue","darkgreen","purple","yellow", "orange", "red", "blue", "lightgrey","success", "important", "critical", "informational", "inactive","blueviolet", "ff69b4", "9cf"])
         # get the name of the file
         badge_filename = os.listdir(directory)[i] # get the name of the file
         badge_text = badge_filename.replace(".md", "") # remove the .md extension
