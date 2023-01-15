@@ -1,5 +1,40 @@
 [
     {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "markdown",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "markdown",
+        "description": "markdown",
+        "detail": "markdown",
+        "documentation": {}
+    },
+    {
+        "label": "black",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "black",
+        "description": "black",
+        "detail": "black",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -62,11 +97,29 @@
         "documentation": {}
     },
     {
+        "label": "combine_readme",
+        "kind": 2,
+        "importPath": "generate_readme",
+        "description": "generate_readme",
+        "peekOfCode": "def combine_readme(top, middle, bottom):\n    # Create dynamic badges for middle section\n    badges = []\n    # the files in the specific_topics folder are the topics\n    badge_count = len(os.listdir(\"specific_topics\"))\n    for i in tqdm(range(badge_count)):\n        badge_color = random.choice([\"green\", \"orange\", \"red\", \"blue\", \"yellow\", \"pink\", \"purple\", \"grey\", \"blue\", \"blueviolet\",\"brown\", \"darkgrey\", \"lightgreen\", \"darkgreen\", \"lightblue\", \"darkblue\", \"lightyellow\", \"darkyellow\", \"lightpink\", \"darkpink\", \"lightpurple\", \"darkpurple\", \"lightbrown\", \"darkbrown\", \"lightblack\", \"darkblack\", \"lightwhite\", \"darkwhite\", \"lightred\", \"darkred\", \"lightorange\", \"darkorange\"])\n        badge_text = f\"Badge_{i + 1}\"\n        # get the name of the file\n        badge_filename = os.listdir(\"specific_topics\")[i] # get the name of the file",
+        "detail": "generate_readme",
+        "documentation": {}
+    },
+    {
+        "label": "combined_readme",
+        "kind": 5,
+        "importPath": "generate_readme",
+        "description": "generate_readme",
+        "peekOfCode": "combined_readme = combine_readme(top, middle, bottom)\n# Write the combined README to the root directory\nwith open(\"README.md\", \"w\") as file:\n    file.write(combined_readme)",
+        "detail": "generate_readme",
+        "documentation": {}
+    },
+    {
         "label": "make_a_prompt",
         "kind": 2,
         "importPath": "prompt_generator",
         "description": "prompt_generator",
-        "peekOfCode": "def make_a_prompt():\n    \"\"\"\n        This function, make_a_prompt, guides the user through the process of creating a prompt for the chatGPT model.\n        It prompts the user to input various pieces of information, such as the type of bot they would like the model to be,\n        the problem the prompt is trying to solve, and the constraints and requirements the prompt must follow.\n        It then uses this information to craft an action and outcome.\n        #NOTE: currently the inputs are commented out so that the function can be run without user input. see the #! comments for the inputs.\n    \"\"\"\n    print(\"Welcome to the prompt generator!\")\n    print(\"-\" * 50)",
+        "peekOfCode": "def make_a_prompt():\n    \"\"\"\n        This function, make_a_prompt, guides the user through the process of creating a prompt for the chatGPT model.\n        It prompts the user to input various pieces of information, such as the type of bot they would like the model to be,\n        the problem the prompt is trying to solve, and the constraints and requirements the prompt must follow.\n        It then uses this information to craft an action and outcome.\n        #NOTE: currently the inputs are commented out so that the function can be run without user input. see the #! comments for the inputs.\n    \"\"\"\n    input_mode = False # set to true to use the input mode, false to use the example mode\n    print(\"Welcome to the prompt generator!\")",
         "detail": "prompt_generator",
         "documentation": {}
     },

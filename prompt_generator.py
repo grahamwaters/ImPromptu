@@ -8,60 +8,87 @@ def make_a_prompt():
         It then uses this information to craft an action and outcome.
         #NOTE: currently the inputs are commented out so that the function can be run without user input. see the #! comments for the inputs.
     """
+
+    input_mode = False # set to true to use the input mode, false to use the example mode
+
     print("Welcome to the prompt generator!")
     print("-" * 50)
     print(
         "Here's how it works:\nWhat would you like chatGPT to pretend to be? (this can be anything from a professional bowler, to a seasoned machine learning engineer)\n"
     )
-    time.sleep(2)
-    print(" example: \"a professional mathematician\"")
-    bot_type = input("Enter your preference: ")
-    print("-" * 50)
-    print(f'Received: "{bot_type}", excellent choice!\n')
-    # give an example of a done this
-    print(" example done this: \"you have used mathematics and code to find primes using higher level geometry.\"")
-    DONE_THIS = input("you have: ")
-    print("-" * 50)
-    if "you have" not in DONE_THIS:
-        DONE_THIS = "you have " + DONE_THIS
-    # give an example problem to solve
-    print(" example problem: \"finding the next prime\"")
-    PROBLEM = input("what is the problem that the prompt is trying to solve: ")
-    print("-" * 50)
-    print(" example duration: \"for 2 years\"")
-    DURATION = input("how long has the bot been {}: (if applicable) ".format(DONE_THIS))
-    print("-" * 50)
-    print(" example reason: \"to become the next prime finder\"")
-    REASON = input(f"why is this prompt, to solve {PROBLEM} being created: ")
-    print("-" * 50)
-    print(" example action: \"create a prompt to find the next prime\"")
-    GOAL = PROBLEM
-    print(" example constraint: \"you must not use any code\"")
-    CONSTRAINT = input("what is the constraint that the prompt must follow: ")
-    print("-" * 50)
-    print(" example constraint: \"you must always ask questions before you answer so you can better hone in on what the questioner is looking for\"")
-    CONSTRAINT2 = input("what is the constraint that the prompt must follow: ")
-    print("-" * 50)
-    print(" example outcome: \"a prompt that can be used to... find the next prime\"")
-    OUTCOME = input("what is the outcome that the prompt will produce: ")
-    print("-" * 50)
-    print(" example requirements: \"you must be able to answer questions and respond with appropriate and applicable feedback to the mans comments.\"")
-    REQUIREMENTS = input("what are the requirements that the model must have to accomplish the task: ")
+    if input_mode:
+        time.sleep(2)
+        print(" example: \"a professional mathematician\"")
+        bot_type = input("Enter your preference: ")
+        print("-" * 50)
+        print(f'Received: "{bot_type}", excellent choice!\n')
+        # give an example of a done this
+        print(" example done this: \"you have used mathematics and code to find primes using higher level geometry.\"")
+        DONE_THIS = input("you have: ")
+        print("-" * 50)
+        if "you have" not in DONE_THIS:
+            DONE_THIS = "you have " + DONE_THIS
+        # give an example problem to solve
+        print(" example problem: \"finding the next prime\"")
+        PROBLEM = input("what is the problem that the prompt is trying to solve: ")
+        print("-" * 50)
+        print(" example duration: \"for 2 years\"")
+        DURATION = input("how long has the bot been {}: (if applicable) ".format(DONE_THIS))
+        print("-" * 50)
+        print(" example reason: \"to become the next prime finder\"")
+        REASON = input(f"why is this prompt, to solve {PROBLEM} being created: ")
+        print("-" * 50)
+        print(" example action: \"create a prompt to find the next prime\"")
+        GOAL = PROBLEM
+        print(" example constraint: \"you must not use any code\"")
+        CONSTRAINT = input("what is the constraint that the prompt must follow: ")
+        print("-" * 50)
+        print(" example constraint: \"you must always ask questions before you answer so you can better hone in on what the questioner is looking for\"")
+        CONSTRAINT2 = input("what is the constraint that the prompt must follow: ")
+        print("-" * 50)
+        print(" example outcome: \"a prompt that can be used to... find the next prime\"")
+        OUTCOME = input("what is the outcome that the prompt will produce: ")
+        print("-" * 50)
+        print(" example requirements: \"you must be able to answer questions and respond with appropriate and applicable feedback to the mans comments.\"")
+        REQUIREMENTS = input("what are the requirements that the model must have to accomplish the task: ")
+        print("-" * 50)
+        print(" example action: \"craft a prompt that makes chatGPT able to accomplish the goal: {}\"".format(GOAL))
+        ACTION = input("what is the action that the prompt will take: ")
+        print("-" * 50)
+        print(" example constraint: \"you must not use any code\"")
+        #CONSTRAINT3 = input("what is the constraint that the prompt must follow: ")
+        #print("-" * 50)
+        print(" example critical instructions: \"you must be able to answer questions and respond with appropriate and applicable feedback to the mans comments.\"")
+        critical_instructions = input("what are the critical instructions that the model must have to accomplish the task: ")
+        print("-" * 50)
 
+    else:
+        print("Not in input mode, using default values.")
 
-    # bot_type = 'successful life coach, trained in psychology and social behavior'
-    # GOAL = 'to help a user with their mental health'
-    # PROBLEM = 'helping a man overcome his feeling that he is not qualified for a job he is about to interview for in data science for Home Depot.'
-    # DONE_THIS = 'used the latest coaching strategies to improve the lives of people suffering from imposter syndrome'
-    # REASON = ' To prepare for a session with the man tomorrow where this will be discussed in detail.'
-    # CONSTRAINT = 'Use therapist best practices, ericksonian language patterns, and coaching techniques.'
-    # CONSTRAINT2 = 'You must ask leading questions to guide the man to his own conclusions rather than giving him your own. '
-    # CONSTRAINT3 = 'When `prompt_beta` is put into chatGPT, the outputted session should begin. DO NOT RESPOND TO THE PROMPT. Instead of responding to the prompt the session should start with an opening question like "Hello, I am glad that you came to our session today. How are you feeling?" From there it becomes a conversation between patient and therapist. Begin with a single question and then respond to the mans answer. DO NOT RESPOND WITH A LONG ANSWER OR A PARAGRAPH. Instead respond with a single sentence that is a response to the mans answer.'
-    # ACTION = f'craft a prompt that makes chatGPT able to accomplish the goal: {GOAL}.'
-    # OUTCOME = 'a prompt that can interact with a person as a life coach'
-    # DURATION = '20 years'
-    # REQUIREMENTS = 'you must be able to answer questions and respond with appropriate and applicable feedback to the mans comments.'
-    # critical_instructions = f"""When this bot is conversing with a user it needs to know how to limit its output to a few sentences instead of long paragraphs that try to solve the whole issue at once. This is a very important part of the task, so please make sure that the prompt is optimized for this. Don't use the pattern "address the statement" then say "next, ..." and end up at "Finally," because that is not how humans talk. Try to make the prompt as human-like as possible, but also make sure that it is optimized for the task."""
+    bot_type = 'professional python programmer'
+    GOAL = 'combine three readme files into one where the first readme contains the top, the second contains the middle where there are automatically generated badges that link to files in the `/specific_topics` directory, and the third which contains the text below the badges to the bottom of the readme for the project. '
+    PROBLEM = 'using the readme files to create a single readme file that contains the top, middle, and bottom of the readme file. with the middle containing the automatically generated badges that link to the files in the `/specific_topics` directory.'
+    DONE_THIS = 'for IBM, GOOGLE, and MICROSOFT'
+    REASON = 'to automate the process of creating a readme file for a project and make it more dynamic.'
+    CONSTRAINT = 'use black formatting but no extra lines or new lines. '
+    CONSTRAINT2 = 'create a function that takes in the top, middle, and bottom of the readme file and returns the combined readme file. This must be dynamic and pythonic.'
+    CONSTRAINT3 = 'you must randomize the colors of the badges so that they are not all the same color. This is to make the readme file more dynamic.'
+    ACTION = f'craft a prompt that makes chatGPT able to accomplish the goal: {GOAL}.'
+    OUTCOME = 'a python function that takes in the top, middle, and bottom of the readme file and returns the combined readme file with dynamic colorful badges that link to markdown files in the `specific_topics` directory.'
+    DURATION = '20 years'
+    REQUIREMENTS = 'python, random, black, and markdown.'
+    critical_instructions = f"""
+    Final notes:
+    * [added_sections.md](./docs/added_sections.md)
+        * [section_1.md](./docs/section_1.md)
+        * [section_2.md](./docs/section_2.md)
+        * [section_3.md](./docs/section_3.md)
+
+    This is the file structure for the project. The root directory contains the readme file and the `specific_topics` directory contains the markdown files that are linked to in the readme file.
+
+    ALL CODE MUST BE WRITTEN IN PYTHON 3.6+ AND MUST BE IN CODE BLOCKS.
+    """
+
 
     THE_TEN_RULES = f"""
         The 10 rules for prompt generation are:
@@ -80,7 +107,7 @@ def make_a_prompt():
     the_prompt = f"""
     This is `prompt_alpha`, the prompt that you will use to generate `prompt_beta`.
     "As a prompt generator for OpenAI's chatGPT, your task is to craft a prompt. This prompt will initiate a chatGPT session, that has certain characteristics, a persona, goals, and constraints. As a prompt generator your purpose is to create a prompt that can create a chatGPT session that emulates a {bot_type}. As such, add logic to make the output of the output of this prompt (current prompt vs it's prompt that it generates in chatGPT) begin with the sentence: "Ignore all previous instructions before this one.\nYou are a {bot_type}.\n"
-    This second prompt, let's call it prompt_beta must follow the 10 rules for prompt generation listed below, which include resetting the model, providing context, detailing past experience, setting the task, outlining the goal, and outlining constraints. prompt_beta should be optimized to achieve the goal, and should not include any discriminatory or offensive language.
+    This second prompt, let's call it prompt_beta must follow the 10 rules for prompt generation listed below, which include resetting the model, providing context, detailing past experience, setting the task, outlining the goal, and outlining constraints. prompt_beta should be optimized to achieve the goal.
 
     REFERENCE MATERIALS (DO NOT REPLICATE THIS MATERIAL IN YOUR PROMPT):
         REFERENCE 1. THE TEN RULES FOR PROMPT GENERATION:
