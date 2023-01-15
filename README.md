@@ -41,7 +41,7 @@ bluevioletff69b49cf -->
 
 If you're not into the whole, color cloud concept check out our vanilla list option [here](./vanilla_list.md)
 
-<<<<<<< HEAD
+
 [![nutrition](https://img.shields.io/badge/nutrition-darkblack)](./industries/nutrition.md)
  [![gardening](https://img.shields.io/badge/gardening-darkwhite)](./industries/gardening.md)
  [![medicine](https://img.shields.io/badge/medicine-lightwhite)](./industries/medicine.md)
@@ -334,7 +334,7 @@ If you're not into the whole, color cloud concept check out our vanilla list opt
  [![a_virtual_doctor](https://img.shields.io/badge/a_virtual_doctor-darkpurple)](./actors/a_virtual_doctor.md)
  [![a_gnomist](https://img.shields.io/badge/a_gnomist-lightblack)](./actors/a_gnomist.md)
  [![an_astrologer](https://img.shields.io/badge/an_astrologer-lightwhite)](./actors/an_astrologer.md)</div>
-=======
+
 [![nutrition](https://img.shields.io/badge/nutrition-darkgrey)](./industries/nutrition.md)
  [![gardening](https://img.shields.io/badge/gardening-lightgreen)](./industries/gardening.md)
  [![medicine](https://img.shields.io/badge/medicine-darkyellow)](./industries/medicine.md)
@@ -627,7 +627,7 @@ If you're not into the whole, color cloud concept check out our vanilla list opt
  [![a_virtual_doctor](https://img.shields.io/badge/a_virtual_doctor-lightbrown)](./actors/a_virtual_doctor.md)
  [![a_gnomist](https://img.shields.io/badge/a_gnomist-yellow)](./actors/a_gnomist.md)
  [![an_astrologer](https://img.shields.io/badge/an_astrologer-red)](./actors/an_astrologer.md)</div>
->>>>>>> 27c9fc18462b9ea32725ef73faaa1ef742e78245
+
 
 
 ## Contributing
