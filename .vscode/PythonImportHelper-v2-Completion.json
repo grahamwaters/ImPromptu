@@ -1,5 +1,49 @@
 [
     {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "markdown",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "markdown",
+        "description": "markdown",
+        "detail": "markdown",
+        "documentation": {}
+    },
+    {
+        "label": "black",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "black",
+        "description": "black",
+        "detail": "black",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "mistune",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mistune",
+        "description": "mistune",
+        "detail": "mistune",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -9,29 +53,12 @@
         "documentation": {}
     },
     {
-        "label": "time",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
-        "documentation": {}
-    },
-    {
         "label": "re",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "re",
         "description": "re",
         "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "tqdm",
-        "importPath": "tqdm.auto",
-        "description": "tqdm.auto",
-        "isExtraImport": true,
-        "detail": "tqdm.auto",
         "documentation": {}
     },
     {
@@ -62,11 +89,55 @@
         "documentation": {}
     },
     {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "collect_badges",
+        "kind": 2,
+        "importPath": "generate_readme",
+        "description": "generate_readme",
+        "peekOfCode": "def collect_badges(directory='specific_topics'):\n    # Create dynamic badges for middle section\n    badges = []\n    badge_texts = []\n    badge_count = len(os.listdir(directory))\n    for i in tqdm(range(badge_count)):\n        badge_color = random.choice([\"orange\", \"red\", \"blue\", \"yellow\", \"pink\", \"purple\", \"grey\", \"blue\", \"blueviolet\",\"brown\", \"darkgrey\", \"lightgreen\", \"darkgreen\", \"lightblue\", \"darkblue\", \"lightyellow\", \"darkyellow\", \"lightpink\", \"darkpink\", \"lightpurple\", \"darkpurple\", \"lightbrown\", \"darkbrown\", \"lightblack\", \"darkblack\", \"lightwhite\", \"darkwhite\", \"lightred\", \"darkred\", \"lightorange\", \"darkorange\"])\n        # get the name of the file\n        badge_filename = os.listdir(directory)[i] # get the name of the file\n        badge_text = badge_filename.replace(\".md\", \"\") # remove the .md extension",
+        "detail": "generate_readme",
+        "documentation": {}
+    },
+    {
+        "label": "collect_badges_from_dirs",
+        "kind": 2,
+        "importPath": "generate_readme",
+        "description": "generate_readme",
+        "peekOfCode": "def collect_badges_from_dirs(dirs_list):\n    # go to each directory and collect the badges\n    badges = []\n    for directory in dirs_list:\n        new_badges_list = collect_badges(directory=directory)\n        updated_badges = [badge for badge in new_badges_list if badge not in badges] # remove duplicates\n        badges.extend(updated_badges)\n    # join the badges together and return the string\n    badges = \"\\n \".join(badges)\n    return badges",
+        "detail": "generate_readme",
+        "documentation": {}
+    },
+    {
+        "label": "master_badge_function",
+        "kind": 2,
+        "importPath": "generate_readme",
+        "description": "generate_readme",
+        "peekOfCode": "def master_badge_function():\n    badges = collect_badges_from_dirs(dirs_list=['industries', 'specific_topics', 'actors'])\n    return badges\n# def combine_readme(top, badges, bottom):\n#     # Concatenate top, badges, and bottom sections\n#     combined_readme = top + \"\\n\\n\" + \"\\n\".join(badges) + \"\\n\\n\" + bottom\n#     return combined_readme\n# Read in the top, middle, and bottom sections of the README\nwith open(\"docs/section_1.md\", \"r\") as file:\n    top = file.read()",
+        "detail": "generate_readme",
+        "documentation": {}
+    },
+    {
         "label": "make_a_prompt",
         "kind": 2,
         "importPath": "prompt_generator",
         "description": "prompt_generator",
-        "peekOfCode": "def make_a_prompt():\n    \"\"\"\n        This function, make_a_prompt, guides the user through the process of creating a prompt for the chatGPT model.\n        It prompts the user to input various pieces of information, such as the type of bot they would like the model to be,\n        the problem the prompt is trying to solve, and the constraints and requirements the prompt must follow.\n        It then uses this information to craft an action and outcome.\n        #NOTE: currently the inputs are commented out so that the function can be run without user input. see the #! comments for the inputs.\n    \"\"\"\n    print(\"Welcome to the prompt generator!\")\n    print(\"-\" * 50)",
+        "peekOfCode": "def make_a_prompt():\n    \"\"\"\n        This function, make_a_prompt, guides the user through the process of creating a prompt for the chatGPT model.\n        It prompts the user to input various pieces of information, such as the type of bot they would like the model to be,\n        the problem the prompt is trying to solve, and the constraints and requirements the prompt must follow.\n        It then uses this information to craft an action and outcome.\n        #NOTE: currently the inputs are commented out so that the function can be run without user input. see the #! comments for the inputs.\n    \"\"\"\n    input_mode = False # set to true to use the input mode, false to use the example mode\n    print(\"Welcome to the prompt generator!\")",
         "detail": "prompt_generator",
         "documentation": {}
     },
