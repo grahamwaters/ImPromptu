@@ -215,7 +215,6 @@ If you're not into the whole, color cloud concept check out our vanilla list opt
  [![d3_js](https://img.shields.io/badge/d3_js-yellowgreen)](./specific_topics/d3_js.md)
  [![sas](https://img.shields.io/badge/sas-informational)](./specific_topics/sas.md)
  [![ios](https://img.shields.io/badge/ios-blueviolet)](./specific_topics/ios.md)
- [![c#](https://img.shields.io/badge/c#-orange)](./specific_topics/c#.md)
  [![mobile_development](https://img.shields.io/badge/mobile_development-orange)](./specific_topics/mobile_development.md)
  [![d3_js](https://img.shields.io/badge/d3_js-red)](./specific_topics/d3_js.md)
  [![ruby](https://img.shields.io/badge/ruby-informational)](./specific_topics/ruby.md)
