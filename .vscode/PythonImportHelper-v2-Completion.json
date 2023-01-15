@@ -35,6 +35,15 @@
         "documentation": {}
     },
     {
+        "label": "mistune",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mistune",
+        "description": "mistune",
+        "detail": "mistune",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -44,29 +53,12 @@
         "documentation": {}
     },
     {
-        "label": "time",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
-        "documentation": {}
-    },
-    {
         "label": "re",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "re",
         "description": "re",
         "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "tqdm",
-        "importPath": "tqdm.auto",
-        "description": "tqdm.auto",
-        "isExtraImport": true,
-        "detail": "tqdm.auto",
         "documentation": {}
     },
     {
@@ -97,20 +89,46 @@
         "documentation": {}
     },
     {
-        "label": "combine_readme",
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "collect_badges",
         "kind": 2,
         "importPath": "generate_readme",
         "description": "generate_readme",
-        "peekOfCode": "def combine_readme(top, middle, bottom):\n    # Create dynamic badges for middle section\n    badges = []\n    # the files in the specific_topics folder are the topics\n    badge_count = len(os.listdir(\"specific_topics\"))\n    for i in tqdm(range(badge_count)):\n        badge_color = random.choice([\"green\", \"orange\", \"red\", \"blue\", \"yellow\", \"pink\", \"purple\", \"grey\", \"blue\", \"blueviolet\",\"brown\", \"darkgrey\", \"lightgreen\", \"darkgreen\", \"lightblue\", \"darkblue\", \"lightyellow\", \"darkyellow\", \"lightpink\", \"darkpink\", \"lightpurple\", \"darkpurple\", \"lightbrown\", \"darkbrown\", \"lightblack\", \"darkblack\", \"lightwhite\", \"darkwhite\", \"lightred\", \"darkred\", \"lightorange\", \"darkorange\"])\n        badge_text = f\"Badge_{i + 1}\"\n        # get the name of the file\n        badge_filename = os.listdir(\"specific_topics\")[i] # get the name of the file",
+        "peekOfCode": "def collect_badges(directory='specific_topics'):\n    # Create dynamic badges for middle section\n    badges = []\n    badge_texts = []\n    badge_count = len(os.listdir(directory))\n    for i in tqdm(range(badge_count)):\n        badge_color = random.choice([\"orange\", \"red\", \"blue\", \"yellow\", \"pink\", \"purple\", \"grey\", \"blue\", \"blueviolet\",\"brown\", \"darkgrey\", \"lightgreen\", \"darkgreen\", \"lightblue\", \"darkblue\", \"lightyellow\", \"darkyellow\", \"lightpink\", \"darkpink\", \"lightpurple\", \"darkpurple\", \"lightbrown\", \"darkbrown\", \"lightblack\", \"darkblack\", \"lightwhite\", \"darkwhite\", \"lightred\", \"darkred\", \"lightorange\", \"darkorange\"])\n        # get the name of the file\n        badge_filename = os.listdir(directory)[i] # get the name of the file\n        badge_text = badge_filename.replace(\".md\", \"\") # remove the .md extension",
         "detail": "generate_readme",
         "documentation": {}
     },
     {
-        "label": "combined_readme",
-        "kind": 5,
+        "label": "collect_badges_from_dirs",
+        "kind": 2,
         "importPath": "generate_readme",
         "description": "generate_readme",
-        "peekOfCode": "combined_readme = combine_readme(top, middle, bottom)\n# Write the combined README to the root directory\nwith open(\"README.md\", \"w\") as file:\n    file.write(combined_readme)",
+        "peekOfCode": "def collect_badges_from_dirs(dirs_list):\n    # go to each directory and collect the badges\n    badges = []\n    for directory in dirs_list:\n        new_badges_list = collect_badges(directory=directory)\n        updated_badges = [badge for badge in new_badges_list if badge not in badges] # remove duplicates\n        badges.extend(updated_badges)\n    # join the badges together and return the string\n    badges = \"\\n \".join(badges)\n    return badges",
+        "detail": "generate_readme",
+        "documentation": {}
+    },
+    {
+        "label": "master_badge_function",
+        "kind": 2,
+        "importPath": "generate_readme",
+        "description": "generate_readme",
+        "peekOfCode": "def master_badge_function():\n    badges = collect_badges_from_dirs(dirs_list=['industries', 'specific_topics', 'actors'])\n    return badges\n# def combine_readme(top, badges, bottom):\n#     # Concatenate top, badges, and bottom sections\n#     combined_readme = top + \"\\n\\n\" + \"\\n\".join(badges) + \"\\n\\n\" + bottom\n#     return combined_readme\n# Read in the top, middle, and bottom sections of the README\nwith open(\"docs/section_1.md\", \"r\") as file:\n    top = file.read()",
         "detail": "generate_readme",
         "documentation": {}
     },
