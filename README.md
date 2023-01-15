@@ -256,7 +256,6 @@ If you're not into the whole, color cloud concept check out our vanilla list opt
  [![a_socrat](https://img.shields.io/badge/a_socrat-darkpink)](./actors/a_socrat.md)
  [![a_developer_relations_consultant:](https://img.shields.io/badge/a_developer_relations_consultant:-lightblue)](./actors/a_developer_relations_consultant:.md)
  [![a_digital_art_gallery_guide](https://img.shields.io/badge/a_digital_art_gallery_guide-blueviolet)](./actors/a_digital_art_gallery_guide.md)
- [![a_tic-tac-toe_game](https://img.shields.io/badge/a_tic-tac-toe_game-blue)](./actors/a_tic-tac-toe_game.md)
  [![a_senior_frontend_developer](https://img.shields.io/badge/a_senior_frontend_developer-brown)](./actors/a_senior_frontend_developer.md)
  [![a_personal_chef](https://img.shields.io/badge/a_personal_chef-grey)](./actors/a_personal_chef.md)
  [![a_lunatic](https://img.shields.io/badge/a_lunatic-lightorange)](./actors/a_lunatic.md)
@@ -334,7 +333,6 @@ If you're not into the whole, color cloud concept check out our vanilla list opt
  [![a_virtual_doctor](https://img.shields.io/badge/a_virtual_doctor-darkpurple)](./actors/a_virtual_doctor.md)
  [![a_gnomist](https://img.shields.io/badge/a_gnomist-lightblack)](./actors/a_gnomist.md)
  [![an_astrologer](https://img.shields.io/badge/an_astrologer-lightwhite)](./actors/an_astrologer.md)</div>
-
 [![nutrition](https://img.shields.io/badge/nutrition-darkgrey)](./industries/nutrition.md)
  [![gardening](https://img.shields.io/badge/gardening-lightgreen)](./industries/gardening.md)
  [![medicine](https://img.shields.io/badge/medicine-darkyellow)](./industries/medicine.md)
@@ -628,6 +626,7 @@ If you're not into the whole, color cloud concept check out our vanilla list opt
  [![a_gnomist](https://img.shields.io/badge/a_gnomist-yellow)](./actors/a_gnomist.md)
  [![an_astrologer](https://img.shields.io/badge/an_astrologer-red)](./actors/an_astrologer.md)</div>
 
+</div>
 
 
 ## Contributing
