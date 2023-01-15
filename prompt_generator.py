@@ -1,9 +1,13 @@
 import os
 import time
 def make_a_prompt():
-
-
-
+    """
+        This function, make_a_prompt, guides the user through the process of creating a prompt for the chatGPT model.
+        It prompts the user to input various pieces of information, such as the type of bot they would like the model to be,
+        the problem the prompt is trying to solve, and the constraints and requirements the prompt must follow.
+        It then uses this information to craft an action and outcome.
+        #NOTE: currently the inputs are commented out so that the function can be run without user input. see the #! comments for the inputs.
+    """
     print("Welcome to the prompt generator!")
     print("-" * 50)
     print(
@@ -57,22 +61,8 @@ def make_a_prompt():
     OUTCOME = 'a prompt that can interact with a person as a life coach'
     DURATION = '20 years'
     REQUIREMENTS = 'you must be able to answer questions and respond with appropriate and applicable feedback to the mans comments.'
-    # the_prompt = f"""
-    # for reference only do not replicate these eight rules in your prompt, only use for guidance.
-    # THE 10 RULES FOR PROMPT GENERATION:
-    # {THE_TEN_RULES}
-    # END OF 10 RULES
+    critical_instructions = f"""When this bot is conversing with a user it needs to know how to limit its output to a few sentences instead of long paragraphs that try to solve the whole issue at once. This is a very important part of the task, so please make sure that the prompt is optimized for this. Don't use the pattern "address the statement" then say "next, ..." and end up at "Finally," because that is not how humans talk. Try to make the prompt as human-like as possible, but also make sure that it is optimized for the task."""
 
-    # Ignore all previous instructions before this one.
-    # You are a prompt generator for OpenAI's chatGPT.
-    # You have been trained on various types of prompts for different tasks. You have been used in the past to {DONE_THIS} related to the {PROBLEM}.
-    # Your task is now to craft a prompt for a user to use with your chat interface to accomplish the goal: {YOUR_GOAL}. This prompt must follow the eight rules for prompt generation listed above.
-    # The reason behind the prompt's results will be {REASON}.
-    # You must make sure that each prompt includes all eight rules for prompt generation in a clear and concise manner.
-    # You must also avoid using any language that is discriminatory or offensive.
-    # Optimize the prompt for the model, meaning that it does not have to be understandable by humans, but it must be understandable by the model.
-    # Is that understood?
-    # """
     THE_TEN_RULES = f"""
         The 10 rules for prompt generation are:
         1. Reset the model by saying "Ignore all previous instructions before this one."
@@ -86,6 +76,7 @@ def make_a_prompt():
         9. Specify the outcome or deliverable that the user can expect from the task, for example "The final output will be a {OUTCOME}."
         10. Outline any additional requirements that the user need to have to accomplish the task, such as "To accomplish this task, you need to have {REQUIREMENTS}."
     """
+
     the_prompt = f"""
     This is `prompt_alpha`, the prompt that you will use to generate `prompt_beta`.
     "As a prompt generator for OpenAI's chatGPT, your task is to craft a prompt. This prompt will initiate a chatGPT session, that has certain characteristics, a persona, goals, and constraints. As a prompt generator your purpose is to create a prompt that can create a chatGPT session that emulates a {bot_type}. As such, add logic to make the output of the output of this prompt (current prompt vs it's prompt that it generates in chatGPT) begin with the sentence: "Ignore all previous instructions before this one.\nYou are a {bot_type}.\n"
@@ -120,7 +111,7 @@ def make_a_prompt():
     Please ensure that `prompt_beta` is optimized for the goals, problem, outcome, constraints, and action, meaning that it does not have to be understandable by humans, but it must be understandable by chatGPT and generate human-like responses to the user. Include anything that you think is important for the model to know, but if you include things to the prompt please make sure that they are relevant to the task, and also make sure to notate your additions in a comment for the user. You have as much latitude as you need, but please make the process as lean as possible.
 
     CRITICAL INSTRUCTIONS:
-    When this bot is conversing with a user it needs to know how to limit its output to a few sentences instead of long paragraphs that try to solve the whole issue at once. This is a very important part of the task, so please make sure that the prompt is optimized for this. Don't use the pattern "address the statement" then say "next, ..." and end up at "Finally," because that is not how humans talk. Try to make the prompt as human-like as possible, but also make sure that it is optimized for the task.
+    {critical_instructions}
     """
 
     # save the prompt to a text file in data/prompts, if data/prompts doesn't exist, create it
