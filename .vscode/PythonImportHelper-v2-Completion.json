@@ -89,6 +89,30 @@
         "documentation": {}
     },
     {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "time",
         "kind": 6,
         "isExtraImport": true,
@@ -130,6 +154,33 @@
         "description": "generate_readme",
         "peekOfCode": "def master_badge_function():\n    badges = collect_badges_from_dirs(dirs_list=['industries', 'specific_topics', 'actors'])\n    return badges\n# def combine_readme(top, badges, bottom):\n#     # Concatenate top, badges, and bottom sections\n#     combined_readme = top + \"\\n\\n\" + \"\\n\".join(badges) + \"\\n\\n\" + bottom\n#     return combined_readme\n# Read in the top, middle, and bottom sections of the README\nwith open(\"docs/section_1.md\", \"r\") as file:\n    top = file.read()",
         "detail": "generate_readme",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def dashboard():\n    if request.method == 'POST':\n        subject = request.form['subject']\n        desired_outcome = request.form['desired_outcome']\n        prompt = request.form['prompt']\n        example_output = request.form['example_output']\n        github_username = request.form['github_username']\n        name = request.form['name']\n        # save the prompt, subject, and desired outcome to a file\n    return render_template('dashboard.html')",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "save_to_file",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def save_to_file(subject, desired_outcome, prompt, example_output, github_username, name):\n    file_path = os.path.join('path', 'to', 'file')\n    with open(file_path, 'w') as f:\n        f.write(subject + '\\n')\n        f.write(desired_outcome + '\\n')\n        f.write(prompt + '\\n')\n        f.write(example_output + '\\n')\n        f.write(github_username + '\\n')\n        f.write(name + '\\n')\nif request.method == 'POST':",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/dashboard', methods=['GET', 'POST'])\ndef dashboard():\n    if request.method == 'POST':\n        subject = request.form['subject']\n        desired_outcome = request.form['desired_outcome']\n        prompt = request.form['prompt']\n        example_output = request.form['example_output']\n        github_username = request.form['github_username']\n        name = request.form['name']",
+        "detail": "main",
         "documentation": {}
     },
     {
