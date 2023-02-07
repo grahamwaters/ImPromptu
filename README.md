@@ -40,8 +40,6 @@ If you are feeling like having your mind melt into magic today then head over to
 successimportantcriticalinformationalinactive
 bluevioletff69b49cf -->
 
-If you're not into the whole, color cloud concept check out our vanilla list option [here](./vanilla_list.md)
-
 [![nutrition](https://img.shields.io/badge/nutrition-important)](./industries/nutrition.md)
  [![gardening](https://img.shields.io/badge/gardening-brightgreen)](./industries/gardening.md)
  [![medicine](https://img.shields.io/badge/medicine-darkgreen)](./industries/medicine.md)
