@@ -21,9 +21,7 @@ A community-driven wiki of sorts full of your favorite prompts for various Large
 
 ## The Ultimate chatGPT Prompt List
 
-![main banner](./images/main.png)
-
-
+![main_image](./images/main.png)
 
 
 # Instructions
