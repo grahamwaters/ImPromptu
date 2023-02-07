@@ -1,11 +1,12 @@
 <div align = 'center'>
 <h1>
-ChatGPTea
+ImPromptu
 </h1>
-A curated selection of the best prompts for savvy users of OpenAI's chatbot, chatGPT
+A community-driven wiki of sorts full of your favorite prompts for various Large Language Models such as ChatGPT, GPT-3, MidJourney, and soon (Google's Bard) and more!
 
 ---
 
+![GitHub stars](https://img.shields.io/github/stars/grahamwaters/chatGPTea-Ultimate-Prompt-List)
 [![GitHub issues](https://img.shields.io/github/issues/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/issues)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/pulls)
@@ -16,7 +17,7 @@ A curated selection of the best prompts for savvy users of OpenAI's chatbot, cha
 
 </div>
 
----
+
 
 ## The Ultimate chatGPT Prompt List
 
