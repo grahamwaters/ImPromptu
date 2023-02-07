@@ -6,29 +6,33 @@ A community-driven wiki of sorts full of your favorite prompts for various Large
 
 ---
 
+![GitHub license](https://img.shields.io/github/license/grahamwaters/chatGPTea-Ultimate-Prompt-List)
 ![GitHub stars](https://img.shields.io/github/stars/grahamwaters/chatGPTea-Ultimate-Prompt-List)
 [![GitHub issues](https://img.shields.io/github/issues/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/issues)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/pulls)
 [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/pulls?q=is%3Apr+is%3Aclosed)
 [![GitHub contributors](https://img.shields.io/github/contributors/grahamwaters/chatGPTea-Ultimate-Prompt-List)](https://github.com/grahamwaters/chatGPTea-Ultimate-Prompt-List/graphs/contributors)
-
----
+![GitHub forks](https://img.shields.io/github/forks/grahamwaters/chatGPTea-Ultimate-Prompt-List)
+![GitHub watchers](https://img.shields.io/github/watchers/grahamwaters/chatGPTea-Ultimate-Prompt-List)
+![GitHub repo size](https://img.shields.io/github/repo-size/grahamwaters/chatGPTea-Ultimate-Prompt-List)
+![GitHub last commit](https://img.shields.io/github/last-commit/grahamwaters/chatGPTea-Ultimate-Prompt-List)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/grahamwaters/chatGPTea-Ultimate-Prompt-List)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/grahamwaters/chatGPTea-Ultimate-Prompt-List)
 
 </div>
 
-
-
-## The Ultimate chatGPT Prompt List
-
-
 ![banner](./images/main_banner.png)
 
-# Instructions
+# The Ultimate Large Language Model Community Prompt List
+
+
+
+## Instructions
 
 Choose a subject area you are interested in, and click the link below to go to the page with prompts for that subject. If that page is empty, then you can help by adding prompts to that page. If you are not sure how to do that, you can read the [contributing guidelines](./CONTRIBUTING.md).
 
-# Prompt Generator
+## Prompt Generator
 If you are feeling like having your mind melt into magic today then head over to the [prompt generator](./prompt_generator.py) and let the magic happen. This script will literally write your prompts for you, as if chatGPT wasn't enough magic for you already.
 
 <div align='center'>
