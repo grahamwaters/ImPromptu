@@ -23,6 +23,7 @@ A community-driven wiki of sorts full of your favorite prompts for various Large
 
 ![main_image](./images/main.png)
 
+![banner](./images/main_banner.png)
 
 # Instructions
 
